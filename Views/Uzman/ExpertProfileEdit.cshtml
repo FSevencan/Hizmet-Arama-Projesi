@@ -1,0 +1,267 @@
+﻿@using Proje.ViewModels;
+
+@model ExpertProfileEditViewModel
+
+
+<style>
+    .dropdown-menu .selected {
+        background-color: #5BBB7B !important;
+    }
+
+    .dropdown-item:active {
+        background-color: #5BBB7B !important;
+    }
+</style>
+
+
+<body>
+    <div class="wrapper" style="margin-right:70px; margin-top:-30px;">
+        <div class="preloader"></div>
+
+
+        <div class="dashboard_content_wrapper">
+            <div class="dashboard dashboard_wrapper pr30 pr0-xl">
+
+                <div class="dashboard__main pl0-md">
+                    <div class="dashboard__content hover-bgc-color">
+                        <div class="row pb40">
+
+                            <div class="col-lg-9">
+                                <div class="dashboard_title_area">
+                                    <h2>Profilim</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="ps-widget bgc-white bdrs4 p30 mb30 overflow-hidden position-relative">
+                                    <div class="bdrb1 pb15 mb25">
+                                        <h5 class="list-title" style="color:red">Hizmet vermeye başlamak için Profil bilgilerinizi eksiksiz doldurun!</h5>
+                                    </div>
+                                    <div class="col-xl-7">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <form class="form-expert" asp-action="ExpertProfileEdit" asp-controller="Uzman" method="post" enctype="multipart/form-data">
+
+                                            <div class="profile-box d-sm-flex align-items-center mb30">
+                                                <div class="profile-img mb20-sm">
+                                                    <img class="w-100 rounded-circle wa-xs" src="/img/@Model.PictureShow" style="width:120px; height:120px;" alt="Profil fotoğrafı">
+                                                </div>
+                                                <div class="profile-content ml20 ml0-xs">
+                                                    <div class="d-flex align-items-center my-3">
+
+
+                                                        <div class="upload-btn ml10">
+                                                            <label for="Picture" class="upload-btn ml10">Fotoğraf Yükle</label>
+                                                            <input type="file" id="Picture" asp-for="Picture" style="display: none;" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="Ad">Ad:</label>
+                                                        <input type="text" class="form-control" placeholder="Ad" asp-for="Ad">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="Soyad">Soyad:</label>
+                                                        <input type="text" class="form-control" placeholder="Soyad" asp-for="Soyad">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="Email">Email:</label>
+                                                        <input type="email" class="form-control" placeholder="Email" asp-for="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="Telefon">Telefon:</label>
+                                                        <input type="text" class="form-control" placeholder="Telefon" asp-for="Telefon">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="SehirId">Hizmet vereceğiniz İl:</label>
+                                                        <select class="form-control selectpicker" data-size="10" asp-for="SehirId" id="sehirSelect">
+                                                            <option value="">Lütfen bir il seçin</option>
+                                                            @foreach (var sehir in Model.Sehirler)
+                                                            {
+                                                                <option value="@sehir.SehirId">@sehir.SehirAdi</option>
+                                                            }
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="IlceId">Hizmet vereceğiniz İlçe:</label>
+                                                        <select class="form-control selectpicker" data-size="10" asp-for="IlceId" asp-items="@(new SelectList(Model.Ilceler, "IlceId", "IlceAdi"))" id="ilceSelect">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="KategoriId">Hizmet vereceğiniz Kategori:</label>
+                                                        <select class="form-control selectpicker" data-size="10" asp-for="KategoriId" id="kategoriSelect" asp-items="@(new SelectList(Model.Kategoriler, "KategoriId", "Isim"))">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="AltKategoriId">Hizmet vereceğiniz Alt Kategori:</label>
+                                                        <select class="form-control selectpicker" data-size="10" asp-for="AltKategoriId" id="altkategoriSelect" asp-items="@(new SelectList(Model.AltKategoriler, "AltKategoriId", "Isim"))">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="Title">Mesleğiniz:</label>
+                                                        <input type="text" class="form-control" placeholder="Mesleğiniz" asp-for="Title">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="SaatlikUcret">Saatlik Ücretiniz:</label>
+                                                        <input type="text" class="form-control" placeholder="Örn: 500" asp-for="SaatlikUcret">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10" asp-for="Aciklama">Kendinizi Tanıtın:</label>
+                                                        <textarea cols="30" rows="6" style="height:120px; " class="form-control" asp-for="Aciklama"></textarea>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-md-12">
+                                                    <div class="text-start">
+                                                        <button type="submit" class="ud-btn btn-thm">Kaydet<i class="fal fa-arrow-right-long"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Wrapper End -->
+
+</body>
+<br />
+<br />
+<br />
+<br />
+
+<script>
+    document.getElementById("sehirSelect").addEventListener("change", function () {
+        var sehirId = this.value;
+
+        fetch(`/Member/GetIlceler?sehirId=${sehirId}`)
+            .then(response => response.json())
+            .then(data => {
+                var ilceSelect = document.getElementById("ilceSelect");
+                ilceSelect.innerHTML = "";
+
+                data.forEach(ilce => {
+                    var option = document.createElement("option");
+                    option.value = ilce.ilceId;
+                    option.text = ilce.ilceAdi;
+                    ilceSelect.appendChild(option);
+                });
+
+                // Bootstrap selectpicker'ı güncelleyin
+                $('.selectpicker').selectpicker('refresh');
+            });
+    });
+</script>
+
+<script>
+    document.getElementById("kategoriSelect").addEventListener("change", function () {
+        var kategoriId = this.value;
+
+        fetch(`/Member/GetAltKategoriler?kategoriId=${kategoriId}`)
+            .then(response => response.json())
+            .then(data => {
+                var altKategoriSelect = document.getElementById("altkategoriSelect");
+                altKategoriSelect.innerHTML = "";
+
+                data.forEach(altKategori => {
+                    var option = document.createElement("option");
+                    option.value = altKategori.altKategoriId;
+                    option.text = altKategori.altKategoriAdi;
+                    altKategoriSelect.appendChild(option);
+                });
+
+                // Bootstrap selectpicker'ı güncelleyin
+                $('.selectpicker').selectpicker('refresh');
+            });
+    });
+</script>
+
+<script>
+    $(".form-expert").on('submit', function (e) {
+        e.preventDefault();
+
+        var formData = new FormData(this);
+
+        $.ajax({
+            type: 'post',
+            url: $(this).attr('action'),
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (response) {
+
+                if (response.success) {
+                    Swal.fire({
+                        text: response.message,
+                        icon: "success",
+                        confirmButtonText: "Tamam",
+                        width: '390px',
+                        confirmButtonColor: '#5BBB7B',
+                        showConfirmButton: true,
+                    }).then(() => {
+                        location.reload();
+                    });
+                } else {
+                    Swal.fire({
+
+                        text: response.message || "Profil bilgilerinizi güncellerken bir hata oluştu.",
+                        icon: "error",
+                        confirmButtonText: "Tamam",
+                        confirmButtonColor: '#5BBB7B',
+                        showConfirmButton: true,
+                    });
+                }
+            },
+            error: function (xhr, status, error) {
+                Swal.fire({
+                    title: "Hata!",
+                    text: error || "Profil bilgilerinizi güncellerken bir hata oluştu.",
+                    icon: "error",
+                    confirmButtonText: "Tamam",
+                    confirmButtonColor: '#5BBB7B',
+                    showConfirmButton: true,
+                });
+            }
+        });
+    });
+</script>

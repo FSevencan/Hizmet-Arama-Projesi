@@ -1,0 +1,309 @@
+﻿@inject Proje.Models.AppDbContext context
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hiring, job board, job portal, job posting, jobs marketplace, peopleperhour, proposals, sell services, upwork">
+	<meta name="description" content="Proje">
+	<meta name="CreativeLayers" content="ATFN">
+	<!-- css file -->
+	<link rel="stylesheet" href="~/web/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/web/css/jquery-ui.min.css">
+	<link rel="stylesheet" href="~/web/css/ace-responsive-menu.css">
+	<link rel="stylesheet" href="~/web/css/menu.css">
+	<link rel="stylesheet" href="~/web/css/fontawesome.css">
+	<link rel="stylesheet" href="~/web/css/flaticon.css">
+	<link rel="stylesheet" href="~/web/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="~/web/css/animate.css">
+	<link rel="stylesheet" href="~/web/css/slider.css">
+	<link rel="stylesheet" href="~/web/css/style.css">
+	<link rel="stylesheet" href="~/web/css/ud-custom-spacing.css">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+	
+	<!-- Responsive stylesheet -->
+	<link rel="stylesheet" href="~/web/css/responsive.css">
+	<!-- Title -->
+	<title>Freelance İş Platformu </title>
+	<!-- Favicon -->
+	<link href="~/web/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+	<link href="~/web/images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+	
+	<script src="~/web/js/jquery-3.6.4.min.js"></script>
+	
+
+</head>
+<body>
+	
+
+		<!-- Main Header Nav -->
+		<header class="header-nav nav-innerpage-style main-menu">
+			<!-- Ace Responsive Menu -->
+			<nav class="posr">
+				<div class="container-fluid posr menu_bdrt1">
+					<div class="row align-items-center justify-content-between">
+						<div class="col-auto pe-0">
+							<div class="d-flex align-items-center">
+								<a class="header-logo bdrr1 pr30 pr5-xl" href="/Home/Index"><img src="/img/logo.png" style="width:250px;"  alt="Header Logo"></a>
+								<div class="home1_style">
+									<div id="mega-menu">
+										<a class="btn-mega fw500" href="#"><span class="pl30 pl10-xl pr5 fz15 vam flaticon-menu"></span> Kategoriler</a>
+										<ul class="menu ps-0">
+										@foreach (var kategori in context.Kategoriler)
+										{
+											<li>
+												<a asp-controller="AltKategori" asp-action="Index" asp-route-isim="@kategori.Isim">
+													
+													<span class="menu-title">@kategori.Isim</span>
+												</a>
+											</li>
+
+										}
+												
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-auto">
+							<div class="d-flex align-items-center">
+								<!-- Responsive Menu Structure-->
+								<ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+									<li class="visible_list">
+										<a class="list-item" href="/Home/Index"><span class="title">AnaSayfa</span></a>
+											
+									</li>
+									
+								    <li class="visible_list">
+									   <a class="list-item" href="/İletisim/Index">İletişim</a>
+
+								    </li>
+								
+							 	  <a class="login-info bdrl1 pl15-lg pl30" data-bs-toggle="modal" href="#exampleModalToggle" role="button"></a>
+
+								
+								<partial name="_NavbarLogin" />
+								</ul>
+								
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+	
+		<div class="hiddenbar-body-ovelay"></div>
+
+		<!-- Mobile Nav  -->
+		<div id="page" class="mobilie_header_nav stylehome1">
+			<div class="mobile-menu">
+				<div class="header bdrb1">
+					<div class="menu_and_widgets">
+						<div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+						<a class="mobile_logo" href="/Home/Index"><img src="/img/logo.png" style="width:200px;" alt=""></a>
+							<div class="right-side text-end">
+								
+								<a class="menubar ml30" href="#menu"><img src="~/web/images/mobile-dark-nav-icon.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
+				</div>
+			</div>
+			<!-- /.mobile-menu -->
+			<nav id="menu" class="">
+				<ul>
+					<li>
+						<a href="/Home/Index">AnaSayfa</a>
+						
+					</li>
+				<li>
+					<span>Kategoriler</span>
+					<ul>
+						
+						@foreach (var kategori in context.Kategoriler)
+						{
+
+					       <li><a href="/Kategori/@kategori.Isim">@kategori.Isim</a></li>
+					
+						}
+					</ul>
+				</li>
+					
+					<li>
+						<a href="/İletisim/Index">İletişim</a>
+						
+					</li>
+
+					<br />
+
+				<partial name="_NavbarLogin" />
+					
+					<!-- Only for Mobile View -->
+				</ul>
+			</nav>
+		</div>
+
+		<div class="body_content">
+			<!-- Breadcumb Sections -->
+			<section class="breadcumb-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="breadcumb-style1">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			@RenderBody()
+
+			<!-- Our Footer -->
+			<section class="footer-style1 at-home6 home2-footer-radius pt25 pb-0">
+				<div class="container">
+					<div class="row bb-white-light pb10 mb60">
+						<div class="col-md-7">
+							<div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
+							<a class="fz17 fw500 text-white mr15-md mr30" href="#">Kullanım Şartları</a>
+								<a class="fz17 fw500 text-white mr15-md mr30" href="#">Gizlilik Politikası</a>
+								<a class="fz17 fw500 text-white" href="#">Site Haritası</a>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="social-widget text-center text-md-end">
+								<div class="social-style1">
+									<a class="text-white me-2 fw500 fz17" href="#">Takip Et</a>
+									<a href="#"><i class="fab fa-facebook-f list-inline-item"></i></a>
+									<a href="#"><i class="fab fa-twitter list-inline-item"></i></a>
+									<a href="#"><i class="fab fa-instagram list-inline-item"></i></a>
+									<a href="#"><i class="fab fa-linkedin-in list-inline-item"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-lg-3">
+							<div class="link-style1 mb-4 mb-sm-5">
+								<h5 class="text-white mb15">Kategoriler</h5>
+								<div class="link-list">
+								@foreach (var altKategoriler in context.Kategoriler.Take(6))
+								{
+									<li><a href="/Kategori/@altKategoriler.Isim">@altKategoriler.Isim</a></li>
+								}
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="link-style1 mb-4 mb-sm-5">
+								
+								<ul class="ps-0">
+									@foreach (var Kategoriler in context.Kategoriler.Skip(6).Take(6))
+								{
+									<li><a href="/Kategori/@Kategoriler.Isim">@Kategoriler.Isim</a></li>
+								}
+									
+									
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-6 col-lg-3">
+							<div class="footer-widget">
+								<div class="footer-widget mb-4 mb-sm-5">
+									<div class="mailchimp-widget">
+										<h5 class="title text-white mb20">Abone</h5>
+										
+										
+									<form asp-controller="Abone" asp-action="Abone" id="subscribe-form" method="post">
+									  <div class="mailchimp-style1">
+										<input class="form-control bdrs4" type="email" name="email" placeholder="E-posta adresiniz" />
+										<button type="submit">Abone Ol</button>
+									  </div>
+									</form>
+									<br />
+									<div id="subscribe-message" style="display:none;"></div>
+
+
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container white-bdrt1 py-4">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="text-center text-lg-start">
+								<p class="copyright-text mb-0 text-white-light ff-heading">© 2023  Tüm Hakları Saklıdır.</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<a class="scrollToHome at-home2" href="#"><i class="fas fa-angle-up"></i></a>
+		</div>
+	
+	<!-- Wrapper End -->
+	<script src="~/web/js/jquery-3.6.4.min.js"></script>
+	<script src="~/web/js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="~/web/js/popper.min.js"></script>
+	<script src="~/web/js/bootstrap.min.js"></script>
+	<script src="~/web/js/bootstrap-select.min.js"></script>
+	<script src="~/web/js/jquery.mmenu.all.js"></script>
+	<script src="~/web/js/ace-responsive-menu.js"></script>
+	<script src="~/web/js/jquery-scrolltofixed-min.js"></script>
+	<script src="~/web/js/wow.min.js"></script>
+	<script src="~/web/js/owl.js"></script>
+	<script src="~/web/js/jquery.counterup.js"></script>
+	<script src="~/web/js/pricing-table.js"></script>
+	<!-- Custom script for all pages -->
+	<script src="~/web/js/script.js"></script>
+
+	<script>
+		// Abone Bulteni //
+		$(function () {
+			$('#subscribe-form').submit(function (event) {
+				event.preventDefault();
+				var form = $(this);
+				var url = form.attr('action');
+				var formData = form.serialize();
+
+				$.ajax({
+					type: 'POST',
+					url: url,
+					data: formData,
+					success: function (data) {
+						if (data.success) {
+							$('#subscribe-message').html('<div class="alert alert-success">Başarıyla abone oldunuz!</div>').show().delay(12000).fadeOut();
+						} else {
+							$('#subscribe-message').html('<div class="alert alert-danger">' + data.message + '</div>').show().delay(9000).fadeOut();
+						}
+						form.find('input[name="email"]').val(''); // e-posta kutusunu boşaltır
+					},
+					error: function () {
+						$('#subscribe-message').html('<div class="alert alert-danger">Abonelik işlemi sırasında bir hata oluştu.</div>').show().delay(10000).fadeOut();
+						form.find('input[name="email"]').val(''); // e-posta kutusunu boşaltır
+					}
+				});
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>

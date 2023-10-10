@@ -1,0 +1,154 @@
+
+/*SweetAlert Admin Panel Genel Mesaj Kutusu Css Ayarlarý*/
+
+
+.swal2-popup {
+    width: 400px !important;
+    height: 287px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #0da487 !important;
+    color: #fff;
+}
+
+ 
+.swal2-title {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+.swal2-text {
+    font-size: 10px;
+}
+
+.swal2-icon {
+    font-size: 15px;
+}
+
+.swal2-confirm {
+    font-size: 10px;
+    background-color: #fff;
+    color: #0da487;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    margin-right: 1rem;
+}
+
+.swal2-cancel {
+    font-size: 8px;
+    background-color: #fff;
+    color: #dc3545;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+}
+
+.swal2-confirm:focus {
+    box-shadow: none;
+}
+
+.swal2-cancel:focus {
+    box-shadow: none;
+}
+
+.swal2-confirm:hover {
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.swal2-cancel:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+
+/*//------------------------------------------------------------------------------------------------------------------//
+
+// SweetAlert Yorum Okuma Mesaj Kutusu CSS Ayarlarý //*/
+
+.swal2-popup.yorum-goster-ozel {
+    background-color: #F9F9F6 !important;
+    color: #333 !important;
+    width: 530px !important;
+    height: 470px;
+    border-radius: 20px;
+}
+
+    .swal2-popup.yorum-goster-ozel .swal2-title {
+        font-size: 16px;
+        margin-top: -7px;
+    }
+
+
+    .swal2-popup.yorum-goster-ozel .swal2-text {
+        font-size: 14px;
+       
+    }
+
+    .swal2-popup.yorum-goster-ozel .swal2-icon {
+        font-size: 10px;
+    }
+
+    .swal2-popup.yorum-goster-ozel .swal2-confirm {
+        font-size: 14px;
+        background-color: #0da487 !important;
+        margin-top: 15px;
+    }
+
+    .swal2-popup.yorum-goster-ozel .swal2-cancel {
+        font-size: 12px;
+        background-color: #333 !important;
+        color: #fff !important;
+    }
+
+
+        .swal2-popup.yorum-goster-ozel .swal2-cancel:hover {
+            background-color: #555 !important;
+            border-color: #555 !important;
+        }
+
+/*//------------------------------------------------------------------------------------------------------------------//
+
+// SweetAlert Ýletiþim Mesajý Okuma  Kutusu CSS Ayarlarý //*/
+
+
+.swal2-popup.iletisim-goster-ozel {
+    background-color: #F9F9F6 !important;
+    color: #333 !important;
+    width: 500px !important;
+    height: 250px;
+    border-radius: 20px;
+}
+
+    .swal2-popup.iletisim-goster-ozel .swal2-title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+
+    .swal2-popup.iletisim-goster-ozel .swal2-text {
+        font-size: 14px;
+    }
+
+    .swal2-popup.iletisim-goster-ozel .swal2-icon {
+        font-size: 10px;
+    }
+
+    .swal2-popup.iletisim-goster-ozel .swal2-confirm {
+        font-size: 14px;
+        background-color: #0da487 !important;
+        margin-bottom: 5px;
+    }
+
+    .swal2-popup.iletisim-goster-ozel .swal2-cancel {
+        font-size: 12px;
+        background-color: #333 !important;
+        color: #fff !important;
+    }
+
+
+        .swal2-popup.iletisim-goster-ozel .swal2-cancel:hover {
+            background-color: #555 !important;
+            border-color: #555 !important;
+        }
+
+/*//------------------------------------------------------------------------------------------------------------------//

@@ -1,0 +1,93 @@
+﻿@using Proje.ViewModels;
+@{
+	ViewData["Title"] = "SignIn";
+
+}
+@model SignInViewModel
+
+<style>
+
+	.bgc-thm4 {
+		background-color: #f1f1f1; /* Arka plan rengi burada belirleniyor */
+	}
+</style>
+
+<body class="bgc-thm4">
+	<div class="wrapper ovh">
+		
+
+		<div class="body_content">
+			<!-- Our LogIn Area -->
+			<section class="our-login">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
+							<div class="main-title text-center">
+								<h2 class="title">Giriş Yap</h2>
+
+							</div>
+						</div>
+					</div>
+					<div class="row wow fadeInRight" data-wow-delay="300ms">
+						<div class="col-xl-6 mx-auto">
+							<div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
+								<div class="mb30">
+									<h4>Sizi tekrar gördüğümüze sevindik!</h4>
+									
+								</div>
+								<div asp-validation-summary=ModelOnly class="alert-danger" role="alert"></div>
+
+								<form asp-controller="User" asp-action="SignIn" asp-route-returnUrl="@Context.Request.Query["returnURl"]" method="post">
+								<div class="mb20">
+									<label class="form-label fw600 dark-color">Email Address</label>
+									<input type="text" id="Email" asp-for="Email" class="form-control" required />
+								</div>
+									<div class="mb15" style="position: relative;">
+										<label class="form-label fw600 dark-color">Password</label>
+										<input value="" id="Password" asp-for="Password" type="password" class="form-control" required style="padding-right:30px;" />
+										<span toggle="#Password" class="fa fa-fw fa-eye-slash field-icon toggle-password position-absolute" style=" right:10px; transform: translateY(-142%); z-index: 2;"></span>
+									</div>
+								
+						
+								<div class="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb20">
+									<label class="custom_checkbox fz14 ff-heading">
+										Beni Hatırla
+										<input type="checkbox" checked="checked">
+										<span class="checkmark"></span>
+									</label>
+									
+									<a asp-controller="User" asp-action="ForgetPassword" class="fz14 ff-heading">Şifremi Unuttum</a>
+								</div>
+								<div class="d-grid mb20">
+									<button class="ud-btn btn-thm" type="submit">Giriş Yap <i class="fal fa-arrow-right-long"></i></button>
+								</div>
+								</form>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</div>
+	</div>
+	<!-- Wrapper End -->
+
+</body>
+
+<script>
+	// Şifre gör-gizle  //
+
+	$(document).ready(function () {
+		$(".toggle-password").click(function () {
+			$(this).toggleClass("fa-eye fa-eye-slash");
+			var input = $($(this).attr("toggle"));
+			if (input.attr("type") == "text") {
+				input.attr("type", "password");
+			} else {
+				input.attr("type", "text");
+			}
+		});
+	});
+</script>

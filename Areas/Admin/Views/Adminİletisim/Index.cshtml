@@ -1,0 +1,194 @@
+﻿@model IEnumerable<Proje.Models.İletisim>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="page-body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card card-table">
+					<div class="card-body">
+						<div class="title-header option-title d-sm-flex d-block">
+							<h5>Mesaj Listesi</h5>
+
+							<div class="right-options">
+								<ul>
+								</ul>
+							</div>
+						</div>
+						<div>
+							<br />
+							<div class="table-responsive">
+								<table class="table all-package theme-table table-product" id="table_id">
+									<thead>
+										<tr>
+											<th>
+												Ad Soyad
+											</th>
+											<th>
+												Mail
+											</th>
+
+											<th>
+												Tarih
+											</th>
+											<th>Durum</th>
+											<th>Option</th>
+										</tr>
+									</thead>
+									<tbody>
+										@foreach (var contact in Model)
+										{
+											<tr>
+												<td>
+
+													@Html.DisplayFor(modelItem => contact.AdSoyad)
+
+												</td>
+
+												<td>@Html.DisplayFor(modelItem => contact.Email)</td>
+												<td><font color="black"> @Html.DisplayFor(modelItem => contact.GonderilmeTarihi)</font></td>
+
+
+												<td class="durum-goster" data-iletisimid="@contact.Id">
+													@if (contact.OkunmaTarihi == null)
+													{
+														<p class="badge bg-dark mx-1">Oku</p>
+													}
+													else
+													{
+														<p class="badge bg-primary mx-1">Görüldü</p>
+													}
+												</td>
+
+												<td>
+													<ul>
+
+														<li>
+															<a href="#" class="iletisim-goster" data-id="@contact.Id">
+																<i class="ri-eye-line"></i>
+															</a>
+														</li>
+
+														<li>
+															<a href="javascript:void(0);" onclick="deleteİletisim(@contact.Id)">
+
+																<i class="ri-delete-bin-line"></i>
+
+															</a>
+
+														</li>
+													</ul>
+												</td>
+											</tr>
+										}
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script>
+	function deleteİletisim(id) {
+		Swal.fire({
+			title: 'Emin misiniz?',
+			text: "Mesaj silinecek!",
+			icon: 'warning',
+			showCancelButton: true,
+			confirmButtonColor: '#5cb85c',
+			cancelButtonColor: '#d33',
+			confirmButtonText: 'Sil',
+			cancelButtonText: 'Vazgeç'
+		}).then((result) => {
+			if (result.isConfirmed) {
+				$.ajax({
+					url: '@Url.Action("DeleteConfirmed", "Adminİletisim")',
+					type: 'POST',
+					data: { id: id },
+					success: function (data) {
+						if (data.success) {
+							Swal.fire({
+								title: 'Başarılı!',
+								text: 'Mesaj silindi.',
+								icon: 'success',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							}).then(function () {
+								location.reload();
+							});
+						} else {
+							Swal.fire({
+								title: 'Hata!',
+								text: 'Mesaj silinemedi.',
+								icon: 'error',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							});
+						}
+					},
+					error: function () {
+						Swal.fire({
+							title: 'Hata!',
+							text: 'Mesaj silinemedi.',
+							icon: 'error',
+							confirmButtonColor: '#5cb85c',
+							confirmButtonText: 'Tamam'
+						});
+					}
+				});
+			}
+		});
+	}
+</script>
+
+@* // Mesaj Detayını Gör // *@
+
+<script>
+	$(document).ready(function () {
+		$('.iletisim-goster').click(function (e) {
+			e.preventDefault();
+			var iletisimId = $(this).data('id');
+			$.ajax({
+				url: '/Admin/Adminİletisim/Details/' + iletisimId,
+				type: 'GET',
+				success: function (data) {
+					// SweetAlert mesajını göster
+					Swal.fire({
+						title: data.adSoyad,
+						text: `"${data.mesaj}"`,
+						confirmButtonText: 'Tamam',
+						customClass: {
+							popup: 'iletisim-goster-ozel'
+						}
+					});
+					// "Görüldü" durumunu güncelle
+					$('.durum-goster[data-iletisimid="' + iletisimId + '"]').html('<p class="badge bg-primary mx-1">Görüldü</p>');
+				},
+				error: function (xhr) {
+					var error = JSON.parse(xhr.responseText);
+					Swal.fire({
+						title: 'Hata',
+						text: error.message,
+						icon: 'error',
+						confirmButtonText: 'Tamam',
+						customClass: {
+							popup: 'iletisim-goster-ozel'
+						}
+					});
+				}
+			});
+		});
+	});
+</script>

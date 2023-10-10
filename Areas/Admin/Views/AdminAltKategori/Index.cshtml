@@ -1,0 +1,144 @@
+﻿@model IEnumerable<Proje.Models.AltKategori>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="page-body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card card-table">
+					<div class="card-body">
+						<div class="title-header option-title d-sm-flex d-block">
+							<h5>AltKategori Listesi</h5>
+
+							<div class="right-options">
+								<ul>
+
+									<li>
+										<a class="btn btn-solid" href="/Admin/AdminAltKategori/Create">AltKategori Ekle</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div>
+							<br />
+							<div class="table-responsive">
+								<table class="table all-package theme-table table-product" id="table_id">
+									<thead>
+										<tr>
+											<th>
+												@Html.DisplayNameFor(model => model.Fotograf)
+											</th>
+											<th>
+												AltKategori Adı
+											</th>
+											<th>
+												Kategori
+											</th>
+											<th>Option</th>
+										</tr>
+									</thead>
+									<tbody>
+										@foreach (var altKategori in Model)
+										{
+											<tr>
+												<td>
+													<div class="table-image">
+														<img src="/img/@altKategori.Fotograf" alt="@altKategori.Isim adlı ürünün görseli" />
+
+													</div>
+												</td>
+
+												<td>@Html.DisplayFor(modelItem => altKategori.Isim)</td>
+
+												<td>
+														@Html.DisplayFor(modelItem => altKategori.Kategori.Isim)
+												</td>
+												<td>
+													<ul>
+														<li>
+															<a href="/Admin/AdminAltKategori/Edit/@altKategori.AltKategoriId">
+																<i class="ri-pencil-line"></i>
+															</a>
+														</li>
+
+														<li>
+															<a href="javascript:void(0);" onclick="deleteCategory(@altKategori.AltKategoriId)">
+
+																<i class="ri-delete-bin-line"></i>
+
+															</a>
+
+														</li>
+													</ul>
+												</td>
+											</tr>
+										}
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	function deleteCategory(id) {
+		Swal.fire({
+			title: 'Emin misiniz?',
+			text: "AltKategori silinecek!",
+			icon: 'warning',
+			showCancelButton: true,
+			confirmButtonColor: '#5cb85c',
+			cancelButtonColor: '#d33',
+			confirmButtonText: 'Sil',
+			cancelButtonText: 'Vazgeç'
+		}).then((result) => {
+			if (result.isConfirmed) {
+				$.ajax({
+					url: '@Url.Action("DeleteConfirmed", "AdminAltKategori")',
+					type: 'POST',
+					data: { id: id },
+					success: function (data) {
+						if (data.success) {
+							Swal.fire({
+								title: 'Başarılı!',
+								text: 'AltKategori silindi.',
+								icon: 'success',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							}).then(function () {
+								location.reload();
+							});
+						} else {
+							Swal.fire({
+								title: 'Hata!',
+								text: 'AltKategori silinemedi.',
+								icon: 'error',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							});
+						}
+					},
+					error: function () {
+						Swal.fire({
+							title: 'Hata!',
+							text: 'AltKategori silinemedi.',
+							icon: 'error',
+							confirmButtonColor: '#5cb85c',
+							confirmButtonText: 'Tamam'
+						});
+					}
+				});
+			}
+		});
+	}
+</script>

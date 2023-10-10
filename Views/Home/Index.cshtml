@@ -1,0 +1,375 @@
+﻿@model Proje.Models.CokluListeleme
+
+
+@{
+	var isUzman = User.IsInRole("Uzman");
+}
+
+<script>
+	var isUzman = @isUzman.ToString().ToLower();
+</script>
+
+
+<body>
+	<div class="wrapper ovh">
+		<div class="preloader"></div>
+
+		<div class="hiddenbar-body-ovelay"></div>
+
+		<div class="body_content">
+			<!-- Home Banner Style V1 -->
+			<section class="hero-home2 pb100-xs">
+				<div class="container">
+					<div class="row mb60 mb0-xl">
+						<div class="col-xl-7">
+							<div class="pr30 pr0-lg mb30-md position-relative">
+								<h1 class="animate-up-1 mb25 text-white">Size en yakın Uzmanlara <br class="d-none d-xl-block">anında ulaşın!</h1>
+								<p class="text-white animate-up-2">İlçenizdeki Uzmanlar bir tık uzağınızda. <br class="d-none d-lg-block"> </p>
+								<div class="advance-search-tab bgc-white p10 bdrs4-sm bdrs60 banner-btn position-relative zi1 animate-up-3 mt30" style="margin-bottom:115px;">
+									<div class="row" >
+										<div class="col-md-8 col-lg-8 col-xl-9" >
+											
+											<div class="advance-search-field mb10-sm">
+												<form class="form-search position-relative" >
+													<div class="box-search" >
+														<span class="icon far fa-magnifying-glass" ></span>
+														<input class="form-control" type="text"  name="search" placeholder="Hangi hizmete ihtiyacın var?">
+														<div class="search-suggestions">
+															<div class="box-suggestions">
+																<ul class="px-0 m-0 pb-4 search-results-list">
+																	<!-- JavaScript burada sonuçları dolduracak -->
+																</ul>
+															</div>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="col-md-4 col-lg-4 col-xl-3">
+											<div class="text-center text-xl-start">
+												<button class="ud-btn btn-thm w-100 bdrs60" id="searchButton" type="button">Ara</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="col-xl-5 d-none d-xl-block position-relative">
+							<img src="/img/about-1.png" alt="" class="animate-up-1 main-img-home2">
+							<div class="home2-hero-content position-relative">
+								<div class="iconbox-small1 d-none d-xl-flex wow fadeInRight default-box-shadow4 bounce-x animate-up-1">
+									<span class="icon flaticon-review"></span>
+									<div class="details pl20">
+										<h6 style="margin-top:16px;"  class="mb-1">Kaliteli Hizmet</h6>
+										
+									</div>
+								</div>
+								<div class="iconbox-small2 d-none d-xl-flex wow fadeInLeft default-box-shadow4 bounce-y animate-up-2">
+									<span class="icon flaticon-review"></span>
+									<div class="details pl20">
+										<h6 style="margin-top:16px;" class="mb-1">Güvenilir</h6>
+										
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+			<!-- Popular Services -->
+			<section class="pt-0 pb100">
+				<div class="container">
+					<div class="row align-items-center wow fadeInUp">
+						<div class="col-xl-3">
+							<div class="main-title mb30-lg">
+								<h2 class="title">Popüler Hizmetler</h2>
+								
+							</div>
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="navpill-style2">
+								<div class="tab-content ha" id="pills-tabContent">
+									<div class="tab-pane fade fz15 text show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+										<div class="row">
+											@foreach (var populerKategoriler in (List<AltKategori>)ViewData["PopulerKategoriler"])
+											{
+
+												<div class="col-sm-6 col-xl-3">
+													<div class="listing-style1">
+														<div class="list-thumb">
+															<img class="w-100" src="/img/@populerKategoriler.Fotograf" style="height:200px;" alt="kategori fotografı">
+															<a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+														</div>
+														<div class="list-content">
+
+															<h3 class="list-title">@populerKategoriler.Isim</h3>
+															<div class="review-meta d-flex align-items-center">
+															</div>
+															<hr class="my-2">
+															<div class="list-meta d-flex justify-content-between align-items-center mt15">
+																<a href="#">
+																	<span class="position-relative mr12">
+																		<a href="@Url.Action("KategoriTeklif", "Teklif", new { isim = populerKategoriler.Isim.Replace(" ", "-") })" class="ud-btn btn-light-thm">Teklif Al<i class="fal fa-arrow-right-long"></i></a>
+																	</span>
+
+																</a>
+																<div class="budget">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+											}
+										</div>
+									</div>
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Highest Rated Freelancers -->
+			<section class="pt90 pt60-md pb130 pb60-md">
+				<div class="container" style="margin-top:-100px;">
+					<div class="row align-items-center wow fadeInUp">
+						<div class="col-lg-9">
+							<div class="main-title">
+								<h2 class="title">Popüler Uzmanlar</h2>
+								
+							</div>
+						</div>
+						
+					</div>
+					<div class="row" >
+						@foreach (var uzmanData in ViewData["PopulerUzmanlar"] as IEnumerable<dynamic>)
+						{
+							var uzman = uzmanData.Uzman;
+
+							<div class="col-sm-6 col-xl-4">
+								<div class="freelancer-style1 text-center bdr1 hover-box-shadow">
+									<div class="thumb w90 mb25 mx-auto position-relative rounded-circle">
+										<img class="rounded-circle mx-auto" src="/img/@uzman.Kullanici.Picture" style="width:120px; height:120px;" alt="Uzman Fotografı">
+										<span class="online"></span>
+									</div>
+									<div class="details">
+										<h5 class="title mb-1">@uzman.Ad @uzman.Soyad</h5>
+										<p class="mb-0">@uzman.Title</p>
+										<div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">@String.Format("{0:0.0}", uzmanData.OrtalamaPuan)</span> (@uzmanData.YorumSayisi yorum)</p></div>
+
+										<hr class="opacity-100 mt20 mb15">
+										<div class="fl-meta d-flex align-items-center justify-content-between">
+											<a class="meta fw500 text-start">
+												Lokasyon<br><span class="fz14 fw400">@uzman.Ilce.IlceAdi / @uzman.Sehir.SehirAdi </span>
+											</a>
+											<a class="meta fw500 text-start">Ücret<br><span class="fz14 fw400">@uzman.SaatlikUcret TL / Saat</span></a>
+										</div>
+										<div class="d-grid mt15">
+											<a href="@Url.Action("Index", "Uzman", new { isim = (uzman.Kullanici.Ad + "_" + uzman.Kullanici.Soyad).Replace(" ", "_") })" class="ud-btn btn-light-thm">Profile Git<i class="fal fa-arrow-right-long"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						}
+
+					</div>
+				</div>
+			</section>
+
+			<!-- Learn With Freeio -->
+			<section class="bgc-thm3">
+				<div class="container">
+					<div class="row align-items-md-center">
+						<div class="col-md-6 col-lg-8 mb30-md wow fadeInUp" data-wow-delay="100ms">
+							<div class="main-title">
+								<h2 class="title">Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz</h2>
+								
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-lg-4">
+									<div class="funfact_one">
+										<div class="details">
+											<ul class="ps-0 d-flex mb-0">
+												<li><div class="timer">4</div></li>
+												<li><div>.</div></li>
+												<li><div class="timer">9</div></li>
+												<li><span>/</span></li>
+												<li><div class="timer">5</div></li>
+											</ul>
+											<p class="text mb-0">Puanlama</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="funfact_one">
+										<div class="details">
+											<ul class="ps-0 d-flex mb-0">
+												<li><div class="timer">99</div></li>
+												<li><span>%</span></li>
+											</ul>
+											<p class="text mb-0">Müşteri Memnuniyeti</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-4">
+									<div class="funfact_one">
+										<div class="details">
+											<h2>Ödül Sahibi</h2>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 col-xl-4">
+							<div class="testimonial-slider2 mb15 navi_pagi_bottom_center slider-1-grid owl-carousel owl-theme wow fadeInUp" data-wow-delay="300ms">
+								<div class="item">
+									<div class="testimonial-style1 default-box-shadow1 position-relative bdrs16 mb35">
+										<div class="testimonial-content">
+											<h4 class="title text-thm">Harika İş!</h4>
+											<span class="icon fas fa-quote-left"></span>
+											<h4 class="t_content">“Aradığım uzmana hemen ulaşabildim ve uygun fiyata sorunum çözüldü. Teşekkür ediyorum.”</h4>
+										</div>
+										<div class="flex-grow-1 ms-3">
+											<h6 class="mb-0">Mert Can Demir</h6>
+											
+										</div>
+									</div>
+								</div>
+								
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Need something -->
+			<section class="our-features pb90 pb30-md pt60">
+				<div class="container wow fadeInUp">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="main-title">
+								<h2>Yapılması gereken bir şey mi var?</h2>
+								<p class="text">En çok görüntülenen ve tüm zamanların en çok satan hizmetleri</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-lg-3">
+							<div class="iconbox-style1 at-home5 p-0">
+								<div class="icon before-none"><span class="flaticon-cv"></span></div>
+								<div class="details">
+									<h4 class="title mt10 mb-3">İşe başvur</h4>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="iconbox-style1 at-home5 p-0">
+								<div class="icon before-none"><span class="flaticon-web-design"></span></div>
+								<div class="details">
+									<h4 class="title mt10 mb-3">Uzmanlarımızı Seçin</h4>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="iconbox-style1 at-home5 p-0">
+								<div class="icon before-none"><span class="flaticon-secure"></span></div>
+								<div class="details">
+									<h4 class="title mt10 mb-3">Güvenli Ödeme</h4>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-3">
+							<div class="iconbox-style1 at-home5 p-0">
+								<div class="icon before-none"><span class="flaticon-customer-service"></span></div>
+								<div class="details">
+									<h4 class="title mt10 mb-3">Yardım etmek için buradayız</h4>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+</body>
+<br />
+<br />
+<br />
+
+<script>
+	$(document).ready(function () {
+		var validSearchTermSelected = false;
+
+		$('input[name="search"]').on('input', function () {
+			var searchField = $(this).val();
+			if (searchField === '') {
+				$('.search-results-list').html('');
+				validSearchTermSelected = false;
+				return false;
+			}
+
+			var url = '/Search/Search?term=' + searchField;
+
+			$.ajax({
+				type: "GET",
+				url: url,
+				success: function (data) {
+					var output = '';
+					$.each(data, function (key, value) {
+						output += '<li><div class="info-product"><div class="item_title">' + value.isim + '</div></div></li>';
+					});
+					$('.search-results-list').html(output);
+				},
+				error: function (error) {
+					console.log(error);
+				}
+			});
+		});
+
+		$("body").on("click", ".info-product", function () {
+			var suggestion = $(this).text().trim();
+			$("input[name='search']").val(suggestion);
+			validSearchTermSelected = true;
+		});
+
+		// ARA BUTONUNA BASILDIGINDA KULLANICI UZMAN ROLUNDE ISE UYARI VER
+		$("#searchButton").click(function (e) {
+			if (isUzman) {
+				alert('Bu arama kutusu yanlızca müşteriler içindir.');
+				return;
+			}
+
+			var term = $('input[name="search"]').val();
+
+			if (!validSearchTermSelected) {
+				alert('Lütfen arama kutusuna geçerli bir kategori yazın.');
+				return false;
+			}
+
+			var url = '/Search/Index?term=' + term;
+			window.location.href = url;
+		});
+	});
+</script>
+	

@@ -1,0 +1,87 @@
+﻿@{
+	ViewData["Title"] = "AssignRoleToUser";
+}
+@model List<AdminModel.AssignRoleToUserViewModel>
+<br />
+
+<style>
+	.roles-list {
+		display: flex;
+		flex-direction: column;
+	}
+</style>
+
+<div class="page-wrapper compact-wrapper" id="pageWrapper">
+	<!-- Page Header Start-->
+
+	<div class="page-body-wrapper">
+		<!-- Page Sidebar Start-->
+
+		<div class="page-body">
+			<!-- New Product Add Start -->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body">
+										<div class="card-header-2">
+											<h5>Üye Rolü Düzenle</h5>
+										</div>
+
+										<form asp-action="AssignRoleToUser" asp-route-userId="@ViewBag.userId" method="post" class="theme-form theme-form-2 mega-form">
+											
+
+											<div class="row g-sm-4 g-2">
+												<div class="col-xl-6">
+													<div class="row roles-form">
+
+
+														<div class="col-12">
+															<ul class="roles-list">
+																<li>Roller : </li>
+
+																@for (int i = 0; i < Model.Count; i++)
+																{
+																	
+																	<li>
+																		<input type="checkbox" class="checkbox_animated check-it" asp-for="@Model[i].Exist">
+																		<label class="form-check-label m-0" for="exampleCheck1">@Model[i].Name</label>
+																		
+																	</li>
+																	
+																	<input type="hidden" asp-for="@Model[i].Name">
+																	<input type="hidden" asp-for="@Model[i].Id">
+																	
+																}
+
+															</ul>
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<br />
+											<br />
+											<div class="btn-group">
+												<button type="submit" style="width:100px" class="btn btn-primary">Kaydet</button>&nbsp;&nbsp;
+
+												<a asp-action="Index" style="width:100px" class="btn btn-dark">Geri Dön</a>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- Container-fluid End -->
+	</div>
+	<!-- Page Body End -->
+</div>
+

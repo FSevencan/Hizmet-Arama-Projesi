@@ -1,0 +1,111 @@
+﻿@model Proje.Models.CokluListeleme
+
+@{
+	ViewData["Title"] = "Index";
+
+}
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+
+
+
+
+
+<div class="page-body">
+	<div class="container-fluid">
+		<div class="row">
+			<!-- chart caard section start -->
+
+			<div class="col-sm-6 col-xxl-3 col-lg-6">
+				<div class="main-tiles border-5 card-hover border-0  card o-hidden">
+					<div class="custome-3-bg b-r-4 card-body">
+						<div class="media static-top-widget">
+							<div class="media-body p-0">
+								<span class="m-0">AltKategoriler</span>
+								<h4 class="mb-0 counter">
+									@Model.AltKategoriler.Count()
+									
+								</h4>
+							</div>
+
+							<div class="align-self-center text-center">
+								<i class="ri-list-check-2"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6 col-xxl-3 col-lg-6">
+				<div class="main-tiles border-5 card-hover border-0 card o-hidden">
+					<div class="custome-4-bg b-r-4 card-body">
+						<div class="media static-top-widget">
+							<div class="media-body p-0">
+								<span class="m-0">Teklifler</span>
+								<h4 class="mb-0 counter">
+									@Model.Teklifler.Count()
+								</h4>
+							</div>
+
+							<div class="align-self-center text-center">
+								<i class="ri-chat-3-line"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6 col-xxl-3 col-lg-6">
+				<div class="main-tiles border-5 card-hover border-0 card o-hidden">
+					<div class="custome-2-bg b-r-4 card-body">
+						<div class="media static-top-widget">
+							<div class="media-body p-0">
+								<span class="m-0">Musteriler</span>
+								<h4 class="mb-0 counter">
+									@Model.MusteriProfilleri.Count()
+								</h4>
+							</div>
+							<div class="align-self-center text-center">
+								<i class="ri-user-3-line"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6 col-xxl-3 col-lg-6">
+				<div class="main-tiles border-5 border-0  card-hover card o-hidden">
+					<div class="custome-1-bg b-r-4 card-body">
+						<div class="media align-items-center static-top-widget">
+							<div class="media-body p-0">
+								<span class="m-0">Uzmanlar</span>
+								<h4 class="mb-0 counter">
+									@Model.UzmanProfilleri.Count()
+								</h4>
+							</div>
+							<div class="align-self-center text-center">
+								<i class="ri-user-2-line"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			
+			
+
+			
+
+		</div>
+	</div>
+</div>
+
+

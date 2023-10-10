@@ -1,0 +1,151 @@
+﻿@{
+	ViewData["Title"] = "UserList";
+}
+@model List<AdminModel.UserViewModel>
+
+
+
+	<!-- Page Sidebar Ends-->
+	<!-- Container-fluid starts-->
+	<div class="page-body">
+		<!-- All User Table Start -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="card card-table">
+						<div class="card-body">
+						
+							<div class="title-header option-title">
+								<h5>Üye Listesi</h5>
+							<h4>Kayıtlı Üye Sayısı : <strong>@Model.Count()</strong></h4>
+								
+							</div>
+
+							<div class="table-responsive table-product">
+								<table class="table all-package theme-table" id="table_id">
+									<thead>
+										<tr>
+											<th>Üye</th>
+											<th>Ad Soyad</th>
+											<th>Telefon</th>
+											<th>Email</th>
+											<th>Roller</th>
+											<th>Option</th>
+										</tr>
+									</thead>
+
+									<tbody>
+
+										@foreach (var user in Model)
+										{
+											<tr>
+												<td>
+													<div class="table-image">
+														<img src="/img/@user.Fotograf" class="img-fluid"
+															 alt="">
+													</div>
+												</td>
+
+												<td>
+													<div class="user-name">
+														<span>@user.FirstName  @user.LastName</span>
+
+													</div>
+												</td>
+
+												<td>@user.Telefon</td>
+
+												<td>@user.Email</td>
+
+												<td style="width:20%;">
+													<user-role-names user-id="@user.Id"></user-role-names>
+												</td>
+
+												<td>
+													<ul>
+
+
+														<li>
+															<a href="javascript:void(0)">
+																<a asp-controller="Role" asp-action="AssignRoleToUser" asp-route-id="@user.Id"><i class="ri-pencil-line"></i></a>
+															</a>
+														</li>
+
+														<li>
+														<a href="javascript:void(0);" onclick="deleteTag('@(user.Id)')">
+
+																<i class="ri-delete-bin-line"></i>
+
+															</a>
+														</li>
+													</ul>
+												</td>
+											</tr>
+										}
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+@*// Kullanıcı Silme Ajax Kodları // *@
+<script>
+	function deleteTag(id) {
+		Swal.fire({
+			title: 'Emin misiniz?',
+			text: "Üye silinecek!",
+			icon: 'warning',
+			showCancelButton: true,
+			confirmButtonColor: '#5cb85c',
+			cancelButtonColor: '#d33',
+			confirmButtonText: 'Sil',
+			cancelButtonText: 'Vazgeç'
+		}).then((result) => {
+			if (result.isConfirmed) {
+				$.ajax({
+					url: '@Url.Action("DeleteConfirmed", "Home")',
+					type: 'POST',
+					data: { id: id },
+					success: function (data) {
+						if (data.success) {
+							Swal.fire({
+								title: 'Başarılı!',
+								text: 'Üye silindi.',
+								icon: 'success',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							}).then(function () {
+								location.reload();
+							});
+						} else {
+							Swal.fire({
+								title: 'Hata!',
+								text: 'Üye silinemedi.',
+								icon: 'error',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							});
+						}
+					},
+					error: function () {
+						Swal.fire({
+							title: 'Hata!',
+							text: 'Üye silinemedi.',
+							icon: 'error',
+							confirmButtonColor: '#5cb85c',
+							confirmButtonText: 'Tamam'
+						});
+					}
+				});
+			}
+		});
+	}
+</script>

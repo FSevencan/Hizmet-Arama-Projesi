@@ -1,0 +1,46 @@
+﻿@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+
+@inject UserManager<AppUser> UserManager
+
+
+@if (User.Identity!.IsAuthenticated)
+{
+    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Kullanıcının ID'sini al
+    var user = await UserManager.FindByIdAsync(userId); // Kullanıcıyı veritabanından yükle
+
+    <li>
+        <a class="list-item" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-user"></i>&nbsp; @user.Ad @user.Soyad
+        </a>
+        <ul>
+            @if (User.IsInRole("Admin"))
+            {
+                <li><a asp-area="Admin" asp-controller="Home" asp-action="Index" target="_blank">Admin Panele Git!</a></li>
+            }
+            @if (User.IsInRole("Uzman"))
+            {
+                <li><a asp-controller="Uzman" asp-action="ExpertProfileEdit">Profilim</a></li>
+                <li><a asp-controller="Uzman" asp-action="BanaUygunIsler">Bana Uygun İşler</a></li>
+                <li><a asp-controller="Uzman" asp-action="Tekliflerim">Gelen Tekliflerim</a></li>
+
+            }
+            @if (User.IsInRole("Müşteri"))
+            {
+                <li><a asp-controller="Musteri" asp-action="CustomerProfileEdit">Profilim</a></li>
+                <li><a asp-controller="Musteri" asp-action="Tekliflerim">Tekliflerim</a></li>
+            }
+
+            <li><a asp-controller="Mesaj" asp-action="Index">Mesajlarım</a></li>
+            <li><a asp-controller="Member" asp-action="PasswordChange">Şifre Değiştir</a></li>
+            <li><a asp-route-returnurl="/Home/Index" asp-controller="Member" asp-action="logout">Çıkış Yap</a></li>
+        </ul>
+    </li>
+}
+else
+
+{
+    <a class="login-info mx15-lg mx30" href="/User/ExpertSignUp">Hizmet Ver</a>
+    <a class="login-info mr15-lg mr30" href="/User/CustomerSignUp">Kayıt Ol</a>
+    <a class="ud-btn btn-thm add-joining" style="margin-bottom:-13px;" href="/User/SignIn">Giriş</a>
+}

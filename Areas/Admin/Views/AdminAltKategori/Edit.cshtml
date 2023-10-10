@@ -1,0 +1,81 @@
+﻿@model Proje.Models.AltKategori
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="page-body">
+
+	<!-- New Product Add Start -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+					<div class="col-sm-8 m-auto">
+						<div class="card">
+							<div class="card-body">
+								<div class="card-header-2">
+									<h5>AltKategori Düzenle</h5>
+								</div>
+
+								<form asp-action="Edit" enctype="multipart/form-data" method="post" class="theme-form theme-form-2 mega-form">
+									<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+									<input type="hidden" asp-for="AltKategoriId" />
+
+									<div class="mb-4 row align-items-center">
+										<label asp-for="Kategori" class="form-label-title col-sm-3 mb-0"></label>
+										<div class="col-sm-9">
+											<select asp-for="KategoriId" class="form-control" asp-items="ViewBag.KategoriId"></select>
+										</div>
+										<span asp-validation-for="KategoriId" class="text-danger"></span>
+									</div>
+
+									<div class="mb-4 row align-items-center">
+										<label  class="form-label-title col-sm-3 mb-0">AltKategori Adı</label>
+										<div class="col-sm-9">
+											<input asp-for="Isim" class="form-control" />
+										</div>
+										<span asp-validation-for="Isim" class="text-danger" requared></span>
+									</div>
+
+
+									<div class="mb-4 row align-items-center">
+										<label class="form-label-title col-sm-3 mb-0">Açıklama</label>
+										<div class="col-sm-9">
+											<input asp-for="Aciklama" class="form-control" />
+										</div>
+										<span asp-validation-for="Aciklama" class="text-danger" requared></span>
+									</div>
+
+									<div class="mb-4 row align-items-center">
+										<label asp-for="Fotograf" class="col-sm-3 col-form-label form-label-title"></label>
+										<div class="col-sm-9">
+											<input asp-for="Fotograf" class="form-control form-choose" type="hidden" />
+											<input id="file" name="file" class="form-control form-choose" type="file" accept="image/*" />
+											<span asp-validation-for="Fotograf" class="text-danger"></span>
+											<img src="/img/@Model.Fotograf" alt="@Model.Isim adlı Ürünün görseli" style="width:120px; height:100px;" />
+										</div>
+									</div>
+
+
+									<div style="margin-left:25.5%;" class="btn-group">
+										<button type="submit" style="width:100px" class="btn btn-primary">Kaydet</button>&nbsp;&nbsp;
+
+										<a asp-action="Index" style="width:100px" class="btn btn-dark">Geri Dön</a>
+
+									</div>
+
+
+								</form>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

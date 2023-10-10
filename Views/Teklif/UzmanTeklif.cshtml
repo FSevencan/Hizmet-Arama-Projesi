@@ -1,0 +1,208 @@
+﻿@using Proje.ViewModels;
+@model UzmanTeklifViewModel
+
+
+<style>
+    .dropdown-menu .selected {
+        background-color: #5BBB7B !important;
+    }
+
+    .dropdown-item:active {
+        background-color: #5BBB7B !important;
+    }
+</style>
+
+
+<body>
+    <div class="wrapper" style="margin-right:70px; margin-top:-30px;">
+        <div class="preloader"></div>
+
+        <div class="dashboard_content_wrapper">
+            <div class="dashboard dashboard_wrapper pr30 pr0-xl">
+
+                <div class="dashboard__main pl0-md">
+                    <div class="dashboard__content hover-bgc-color">
+                        <div class="row pb40">
+
+                            <div class="col-lg-9">
+                                <div class="dashboard_title_area">
+                                    <h2>Teklif Formu</h2>
+                                   
+                                </div>
+                                <br />
+                                   <h3><p class="text"><strong Style="color:#5BBB7B">@Model.UzmanAdi</strong> Uzmanımıza hızlıca ulaşıp teklif alabilirsiniz.</p></h3>
+                              
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="ps-widget bgc-white bdrs4 p30 mb30 overflow-hidden position-relative">
+                                    <div class="bdrb1 pb15 mb25">
+                                        <h3><strong style="color:#5bbb7b">@Model.AltKategoriAdi</strong></h3>
+                                    </div>
+                                    <div class="col-xl-8">
+                                        <form asp-action="UzmanTeklifOlustur" asp-controller="Teklif" method="post" enctype="multipart/form-data">
+                                            <div class="row">
+
+                                                <input type="hidden" asp-for="MusteriId">
+                                                <input type="hidden" asp-for="AltKategoriId">
+                                                <input type="hidden" asp-for="UzmanId">
+
+                                                <div class="col-sm-12">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10">Başlık*</label>
+                                                        <input asp-for="Baslik" class="form-control" placeholder="Başlık">
+                                                        <span asp-validation-for="Baslik" class="text-danger"></span>
+                                                    </div>
+                                                </div>
+                                               
+                                                <div class="col-md-12">
+                                                    <div class="mb10">
+                                                        <label class="heading-color ff-heading fw500 mb10">Detay bilgi*</label>
+                                                        <textarea asp-for="Aciklama" cols="30" rows="6" placeholder="Açıklama"></textarea>
+                                                        <span asp-validation-for="Aciklama" class="text-danger"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ps-widget bgc-white bdrs12 p30 mb30 overflow-hidden position-relative">
+                                                    <div class="bdrb1 pb15 mb30">
+                                                        <h5 class="list-title">Fotograf</h5>
+                                                    </div>
+                                                    <div class="col-xl-9">
+                                                        <div class="d-flex mb30">
+                                                            <!-- Yüklenen resmi gösteren div -->
+                                                            <div class="gallery-item bdrs4 overflow-hidden me-3" style="position: relative;">
+                                                                <img id="previewImage" src="" alt="" style="display: none; width: 300px; object-fit: cover;">
+                                                            </div>
+                                                            <!-- Foto Yükle resmini gösteren div -->
+                                                            <div class="gallery-item bdrs4 overflow-hidden" style="position: relative; flex: 0 0 auto;">
+                                                                <input style="display: none;" type="file" id="fileInput" asp-for="Fotograf" onchange="showImage(this)">
+                                                                <a href="#" onclick="document.getElementById('fileInput').click(); return false;">
+                                                                    <img id="uploadIcon" class="w-100" src="/img/g-1.png" alt="" style="width: 200px;">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+
+                                                        <p class="text">Max dosya boyutu 1MB, Minimum boyut: 330x300 Ve Uygun dosyalar .jpg & .png'dir.</p>
+                                                        <p class="text" style="color:red">Fotoğraf yüklemek zorunlu değildir.</p>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="text-start">
+                                                    <button type="submit" class="ud-btn btn-thm">Gönder<i class="fal fa-arrow-right-long"></i></button>
+
+                                                </div>
+                                            </div>
+                                        </form>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+<br />
+<br />
+<br />
+
+<script>
+    $("form").submit(function (event) {
+        event.preventDefault();
+        var form = $(this);
+        $.ajax({
+            type: form.attr("method"),
+            url: form.attr("action"),
+            data: new FormData(this),
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                if (response.success) {
+                    Swal.fire({
+                        text: response.message,
+                        icon: "success",
+                        confirmButtonText: "Tamam",
+                        width: '390px',
+                        confirmButtonColor: '#5BBB7B',
+                        allowOutsideClick: false, // Add this line
+                        showConfirmButton: true,
+                    }).then(() => {
+                        window.location.href = "/Home/Index"; // Redirect to Home/Index
+                    });
+                } else {
+                    Swal.fire({
+                        title: "Hata!",
+                        text: response.message,
+                        icon: "error",
+                        confirmButtonText: "Tamam",
+                        confirmButtonColor: '#5BBB7B',
+                        allowOutsideClick: false, // Add this line
+                        showConfirmButton: true,
+                    });
+                }
+            },
+            error: function (xhr, status, error) {
+                Swal.fire({
+                    title: "Hata!",
+                    text: "Teklif formu gönderilirken bir hata oluştu.",
+                    icon: "error",
+                    confirmButtonText: "Tamam",
+                    confirmButtonColor: '#5BBB7B',
+                    allowOutsideClick: false, // Add this line
+                    showConfirmButton: true,
+                });
+            }
+        });
+    });
+</script>
+
+@*SEHİR VE İLÇE SENKRON ŞEÇİM İÇİN*@
+<script>
+    document.getElementById("sehirSelect").addEventListener("change", function () {
+        var sehirId = this.value;
+
+        fetch(`/Member/GetIlceler?sehirId=${sehirId}`)
+            .then(response => response.json())
+            .then(data => {
+                var ilceSelect = document.getElementById("ilceSelect");
+                ilceSelect.innerHTML = "";
+
+                data.forEach(ilce => {
+                    var option = document.createElement("option");
+                    option.value = ilce.ilceId;
+                    option.text = ilce.ilceAdi;
+                    ilceSelect.appendChild(option);
+                });
+
+                // Bootstrap selectpicker'ı güncelleyin
+                $('.selectpicker').selectpicker('refresh');
+            });
+    });
+</script>
+
+@*YÜKLENEN FOTOGRAFI GÖSTERMEK İÇİN*@
+<script>
+    function showImage(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#previewImage').attr('src', e.target.result);
+                $('#previewImage').show(); // Yüklenen resmi göster
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

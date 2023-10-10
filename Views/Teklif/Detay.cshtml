@@ -1,0 +1,96 @@
+﻿@model Proje.Models.Teklif
+
+<body>
+    <div class="wrapper" style="margin-right:70px; margin-top:-30px;">
+        <div class="preloader"></div>
+
+        <div class="dashboard_content_wrapper">
+            <div class="dashboard dashboard_wrapper pr30 pr0-xl">
+
+                <div class="dashboard__main pl0-md">
+                    <div class="dashboard__content hover-bgc-color">
+                        <div class="row pb40">
+
+                            <div class="col-lg-9">
+                                <div class="dashboard_title_area">
+                                    <h2>Teklif Detayları</h2>
+                                    <p class="text">Bu teklifin detaylarını inceleyebilirsiniz.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="ps-widget bgc-white bdrs4 p30 mb30 overflow-hidden position-relative">
+                                    <div class="bdrb1 pb15 mb25">
+                                        <h3><strong style="color:#5bbb7b">@Model.AltKategori.Isim</strong></h3>
+                                       @* <strong>Saatlik Ücret Aralığı: @Model.MinSaatlikUcret TL - @Model.MaxSaatlikUcret TL</strong>*@
+                                    </div>
+                                    <div class="col-xl-8">
+                                        <div class="row">
+
+                                            <div class="col-sm-12">
+                                                <div class="mb20">
+                                                    <label class="heading-color ff-heading fw500 mb10">Başlık</label>
+                                                    <input value="@Model.Baslik" class="form-control" disabled>
+                                                </div>
+                                            </div>
+                                            @if (Model.SehirId == null && Model.IlceId == null)
+                                            {
+                                                
+                                            }
+                                            else
+                                            {
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10">Hizmet alınacak İl</label>
+                                                        <input value="@Model.Sehir.SehirAdi" class="form-control" disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="mb20">
+                                                        <label class="heading-color ff-heading fw500 mb10">Hizmet alınacak İlçe</label>
+                                                        <input value="@Model.Ilce.IlceAdi" class="form-control" disabled>
+                                                    </div>
+                                                </div>
+                                            }
+                                           
+
+
+                                            <div class="col-md-12">
+                                                <div class="mb10">
+                                                    <label class="heading-color ff-heading fw500 mb10">Detay bilgi</label>
+                                                    <textarea cols="30" rows="6" style="height:200px;" class="form-control" disabled>@Model.Aciklama</textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="ps-widget bgc-white bdrs12 p30 mb30 overflow-hidden position-relative">
+                                                <div class="bdrb1 pb15 mb30">
+                                                    <h5 class="list-title">Fotograf</h5>
+                                                </div>
+                                                <div class="col-xl-9">
+                                                    <div class="d-flex mb30">
+                                                        <!-- Yüklenen resmi gösteren div -->
+                                                        <div class="gallery-item bdrs4 overflow-hidden me-3" style="position: relative;">
+                                                            <img id="previewImage" src="@Model.Fotograf" alt="" style="display: block; width: 300px; object-fit: cover;">
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<br />
+<br />
+<br />
+

@@ -1,0 +1,1629 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Proje.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Proje.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\assets\\images\\landing\\email-bg.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\assets\\images\\landing\\email-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\assets\\images\\landing\\title.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\assets\\images\\landing\\title.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\datatables.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\linearicon.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\linearicon.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\ratio.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\ratio.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\remixicon.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vector-map.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vector-map.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\animate.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\chartist.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\chartist.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\date-picker.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\date-picker.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\dropzone-spritemap.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\dropzone-spritemap.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\dropzone.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\feather-icon.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\feather-icon.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\fonts\\slick-2.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\fonts\\slick-2.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\fonts\\slick-3.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\fonts\\slick-3.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\fonts\\slick-4.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\fonts\\slick-4.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\fonts\\slick.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\fonts\\slick.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\fonts\\slickd41d.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\fonts\\slickd41d.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\scrollbar.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\slick.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\css\\vendors\\themify.css",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\css\\vendors\\themify.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\remixicondf6d.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\remixicondf6d.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\remixicondf6d.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\remixicondf6d.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\remixicondf6d.ttf",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\remixicondf6d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\remixicondf6d.woff",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\remixicondf6d.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\remixicondf6d.woff2",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\remixicondf6d.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\themify\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\themify\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\themify\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\themify\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\themify\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\themify\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\themify\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\themify\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\fonts\\themify\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\fonts\\themify\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\bg.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\dashboard\\bg.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\dashboard\\bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\hour.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\hour.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\icon\\down-.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\icon\\down-.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\landing\\leaf-right.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\landing\\leaf-right.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\landing\\left-left.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\landing\\left-left.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\logo\\1-white.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\logo\\1-white.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\logo\\1.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\logo\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\logo\\full-white.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\logo\\full-white.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\logo\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\min.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\min.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\bg-profile.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\bg-profile.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\boxbg.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\boxbg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\calender-bg.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\calender-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\clock-face.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\clock-face.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\coming-soon-bg.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\coming-soon-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\maintenance-bg.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\maintenance-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\other-images\\mobile-clock-wallpaper.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\other-images\\mobile-clock-wallpaper.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\1.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\10.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\11.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\13.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\14.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\16.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\16.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\2.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\20.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\20.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\3.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\4.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\5.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\6.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\7.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\8.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\product\\9.png",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\product\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\profile\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\profile\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\profile\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\profile\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\profile\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\profile\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\sec.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\sec.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\social-app\\social-image.html",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\social-app\\social-image.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\users\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\users\\2.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\users\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\users\\3.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\users\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\users\\4.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\users\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\images\\users\\5.jpg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\images\\users\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\chart\\apex-chart\\apex-chart.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\chart\\apex-chart\\apex-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\chart\\apex-chart\\apex-chart1.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\chart\\apex-chart\\apex-chart1.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\chart\\apex-chart\\chart-custom.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\chart\\apex-chart\\chart-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\chart\\apex-chart\\chart-custom1.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\chart\\apex-chart\\chart-custom1.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\chart\\apex-chart\\moment.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\chart\\apex-chart\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\chart\\apex-chart\\stock-prices.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\chart\\apex-chart\\stock-prices.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\checkbox-all-check.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\checkbox-all-check.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\ckeditor-custom.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\ckeditor-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\custom-data-table.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\custom-data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\custom-slick.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\custom-slick.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\customizer.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\customizer.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\dropzone\\dropzone-script.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\dropzone\\dropzone-script.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\icons\\feather-icon\\feather-icon.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\icons\\feather-icon\\feather-icon.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\icons\\feather-icon\\feather.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\icons\\feather-icon\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\notify\\index.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\notify\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\ratio.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\ratio.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\scrollbar\\custom.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\scrollbar\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\scrollbar\\simplebar.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\scrollbar\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\select2-custom.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\select2-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\sidebar-menu.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\sidebar-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\sidebareffect.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\sidebareffect.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\js\\tooltip-init.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\js\\tooltip-init.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\breakfast.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\breakfast.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\cup.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\cup.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\frozen.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\frozen.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\meats.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\meats.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\milk.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\milk.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\pet.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\pet.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\AdminTema\\assets\\svg\\vegetable.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\svg\\vegetable.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\css\\sweetalert-admin.css",
+      "PackagePath": "staticwebassets\\css\\sweetalert-admin.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\0151dbae-057b-433d-b440-522068244bc8.jpg",
+      "PackagePath": "staticwebassets\\img\\0151dbae-057b-433d-b440-522068244bc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\09dd3453-544c-4f12-827d-a32864416a9a.jpg",
+      "PackagePath": "staticwebassets\\img\\09dd3453-544c-4f12-827d-a32864416a9a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\0c9d80e7-753f-48f9-b082-54daab505c46.webp",
+      "PackagePath": "staticwebassets\\img\\0c9d80e7-753f-48f9-b082-54daab505c46.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\0d2e7a3e-762c-4c2b-9876-1168801a47b3.webp",
+      "PackagePath": "staticwebassets\\img\\0d2e7a3e-762c-4c2b-9876-1168801a47b3.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\11cc21b8-95fa-4f18-b995-e576d32e85a9.jpg",
+      "PackagePath": "staticwebassets\\img\\11cc21b8-95fa-4f18-b995-e576d32e85a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\2544c745-13cb-4b7e-ab4a-8c3bacf734e5.jpg",
+      "PackagePath": "staticwebassets\\img\\2544c745-13cb-4b7e-ab4a-8c3bacf734e5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\2b9f9098-5295-4440-b964-e04720f33b4d.jpg",
+      "PackagePath": "staticwebassets\\img\\2b9f9098-5295-4440-b964-e04720f33b4d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\2e3d043e-09d8-476e-97c4-b9cca3141b34.jpg",
+      "PackagePath": "staticwebassets\\img\\2e3d043e-09d8-476e-97c4-b9cca3141b34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\31d9e2c8-214e-4852-8493-d4a32e546046.jpg",
+      "PackagePath": "staticwebassets\\img\\31d9e2c8-214e-4852-8493-d4a32e546046.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\3d4a6cae-cd11-4b91-9f8d-bbc87cebb12e869.jpg",
+      "PackagePath": "staticwebassets\\img\\3d4a6cae-cd11-4b91-9f8d-bbc87cebb12e869.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\3e177079-61fd-4413-a1f3-f34fe37aae95.webp",
+      "PackagePath": "staticwebassets\\img\\3e177079-61fd-4413-a1f3-f34fe37aae95.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\4025d5f2-4c54-4746-81c1-7c16b4805b39.jpg",
+      "PackagePath": "staticwebassets\\img\\4025d5f2-4c54-4746-81c1-7c16b4805b39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\484ba9e6-9b0f-4115-af71-fdd457a47a38913.jpg",
+      "PackagePath": "staticwebassets\\img\\484ba9e6-9b0f-4115-af71-fdd457a47a38913.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\4fc230bd-9ab7-4682-9945-05e107eac896.webp",
+      "PackagePath": "staticwebassets\\img\\4fc230bd-9ab7-4682-9945-05e107eac896.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\54ccfc8e-9a17-4497-8cf1-8112a94b4e8f.jpg",
+      "PackagePath": "staticwebassets\\img\\54ccfc8e-9a17-4497-8cf1-8112a94b4e8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\55437543-55c0-43cf-b0b0-a051440e857e.webp",
+      "PackagePath": "staticwebassets\\img\\55437543-55c0-43cf-b0b0-a051440e857e.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\5a833328-7a8d-46c4-a0ed-eb3692d2e02b.jpg",
+      "PackagePath": "staticwebassets\\img\\5a833328-7a8d-46c4-a0ed-eb3692d2e02b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\5ea84376-7c2e-45b7-aa04-a2e362d34157.jpg",
+      "PackagePath": "staticwebassets\\img\\5ea84376-7c2e-45b7-aa04-a2e362d34157.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\77fe18bc-2413-47d9-8a47-e82dab50278d.webp",
+      "PackagePath": "staticwebassets\\img\\77fe18bc-2413-47d9-8a47-e82dab50278d.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\7bd18204-25b1-4329-90e1-a5e6748541f6934.webp",
+      "PackagePath": "staticwebassets\\img\\7bd18204-25b1-4329-90e1-a5e6748541f6934.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\7cffcff7-42da-4315-80d1-b6df2cdcd22c.png",
+      "PackagePath": "staticwebassets\\img\\7cffcff7-42da-4315-80d1-b6df2cdcd22c.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\7d788a81-4594-416c-b54c-66f346b45b57731.jpg",
+      "PackagePath": "staticwebassets\\img\\7d788a81-4594-416c-b54c-66f346b45b57731.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\7f36e125-6eab-483d-bd62-b3a2a583cdd2.jpg",
+      "PackagePath": "staticwebassets\\img\\7f36e125-6eab-483d-bd62-b3a2a583cdd2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\87ff1b89-4730-4d82-942e-0abfed18bad4.jpg",
+      "PackagePath": "staticwebassets\\img\\87ff1b89-4730-4d82-942e-0abfed18bad4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\9136e1fb-3391-4ec4-a7bc-c22a60765526783.jpg",
+      "PackagePath": "staticwebassets\\img\\9136e1fb-3391-4ec4-a7bc-c22a60765526783.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\a04fb8ad-8147-4ca0-a8a4-c1ca86ab8700.png",
+      "PackagePath": "staticwebassets\\img\\a04fb8ad-8147-4ca0-a8a4-c1ca86ab8700.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\aa2c168c-6cc9-4e22-b9ed-ea376166b149.png",
+      "PackagePath": "staticwebassets\\img\\aa2c168c-6cc9-4e22-b9ed-ea376166b149.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\aa744424-1572-490e-bb4a-036d612ebd30.png",
+      "PackagePath": "staticwebassets\\img\\aa744424-1572-490e-bb4a-036d612ebd30.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\about-1.png",
+      "PackagePath": "staticwebassets\\img\\about-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\c58815f8-e70e-4772-96db-41af89c4132a.jpg",
+      "PackagePath": "staticwebassets\\img\\c58815f8-e70e-4772-96db-41af89c4132a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\ccbaab4a-b35b-4c7f-876b-15b67321fe6e409.jpg",
+      "PackagePath": "staticwebassets\\img\\ccbaab4a-b35b-4c7f-876b-15b67321fe6e409.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\d1433a31-ca84-4a2f-ae8d-a8059720c079976.jpg",
+      "PackagePath": "staticwebassets\\img\\d1433a31-ca84-4a2f-ae8d-a8059720c079976.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\d461e4c1-403d-47f0-b42e-2d33e90ed5a2.webp",
+      "PackagePath": "staticwebassets\\img\\d461e4c1-403d-47f0-b42e-2d33e90ed5a2.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\d5d39dfd-d12a-48c4-91c6-98fd0e4f6f33300.webp",
+      "PackagePath": "staticwebassets\\img\\d5d39dfd-d12a-48c4-91c6-98fd0e4f6f33300.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\dcb852e1-bad8-46fe-ab7e-c2af124551f0554.webp",
+      "PackagePath": "staticwebassets\\img\\dcb852e1-bad8-46fe-ab7e-c2af124551f0554.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\e22ff4fa-b7e1-471f-beab-7b6b41c05492.jpg",
+      "PackagePath": "staticwebassets\\img\\e22ff4fa-b7e1-471f-beab-7b6b41c05492.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\e51282eb-310d-45dd-970a-8a4a9c8f4a5a.jpg",
+      "PackagePath": "staticwebassets\\img\\e51282eb-310d-45dd-970a-8a4a9c8f4a5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\e6e560c0-d6c1-4185-8b08-40d69731bbb5.webp",
+      "PackagePath": "staticwebassets\\img\\e6e560c0-d6c1-4185-8b08-40d69731bbb5.webp"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\f657a42d-df35-4bd9-845c-efc6021b8d7c627.jpg",
+      "PackagePath": "staticwebassets\\img\\f657a42d-df35-4bd9-845c-efc6021b8d7c627.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\g-1.png",
+      "PackagePath": "staticwebassets\\img\\g-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\img\\pp.png",
+      "PackagePath": "staticwebassets\\img\\pp.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\js\\deneme.js",
+      "PackagePath": "staticwebassets\\js\\deneme.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\ace-responsive-menu.css",
+      "PackagePath": "staticwebassets\\web\\css\\ace-responsive-menu.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\animate.css",
+      "PackagePath": "staticwebassets\\web\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\dashbord_navitaion.css",
+      "PackagePath": "staticwebassets\\web\\css\\dashbord_navitaion.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\web\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\web\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\googlemap.css",
+      "PackagePath": "staticwebassets\\web\\css\\googlemap.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\images\\ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets\\web\\css\\images\\ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\images\\ui-icons_555555_256x240.html",
+      "PackagePath": "staticwebassets\\web\\css\\images\\ui-icons_555555_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\web\\css\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\web\\css\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\images\\ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets\\web\\css\\images\\ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\images\\ui-icons_ffffff_256x240.html",
+      "PackagePath": "staticwebassets\\web\\css\\images\\ui-icons_ffffff_256x240.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\lightbox\\close.png",
+      "PackagePath": "staticwebassets\\web\\css\\lightbox\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\lightbox\\loading.gif",
+      "PackagePath": "staticwebassets\\web\\css\\lightbox\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\lightbox\\next.png",
+      "PackagePath": "staticwebassets\\web\\css\\lightbox\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\lightbox\\prev.png",
+      "PackagePath": "staticwebassets\\web\\css\\lightbox\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\web\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\menu.css",
+      "PackagePath": "staticwebassets\\web\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\web\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\web\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\slider.css",
+      "PackagePath": "staticwebassets\\web\\css\\slider.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\style.css",
+      "PackagePath": "staticwebassets\\web\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\css\\ud-custom-spacing.css",
+      "PackagePath": "staticwebassets\\web\\css\\ud-custom-spacing.css"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\flaticon_freelancer969a.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\flaticon_freelancer969a.eot"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\flaticon_freelancer969a.svg",
+      "PackagePath": "staticwebassets\\web\\fonts\\flaticon_freelancer969a.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\flaticon_freelancer969a.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\flaticon_freelancer969a.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\flaticon_freelancer969a.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\flaticon_freelancer969a.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\flaticon_freelancer969a.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\flaticon_freelancer969a.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-thin-100.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-thin-100.woff"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\fonts\\webfonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\web\\fonts\\webfonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-10.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-11.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-3.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-3.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-4.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-4.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-4.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-5.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-5.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-5.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-6.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-6.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-6.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-7.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-7.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-7.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-8.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-8.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-8.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-9.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\about-9.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\about-9.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\cta-side-bg-3.html",
+      "PackagePath": "staticwebassets\\web\\images\\about\\cta-side-bg-3.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-10.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-10.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-11.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-11.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-2.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-2.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-3.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-3.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-4.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-4.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-5.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-5.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-6.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-6.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-7.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-7.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-8.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-8.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\element-9.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\element-9.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\employee-single-1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\employee-single-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\employee-single-2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\employee-single-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\employee-single-3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\employee-single-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\employee-single-4.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\employee-single-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\happy-client.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\happy-client.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home3-hero-img-1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home3-hero-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home3-hero-img-2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home3-hero-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home3-hero-img-3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home3-hero-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home4-hero-element-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home4-hero-element-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home5-hero-element-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home5-hero-element-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home6-hero-element-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home6-hero-element-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home6-hero-element-2.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home6-hero-element-2.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home6-hero-element-3.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home6-hero-element-3.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home6-hero-img-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home6-hero-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home7-hero-1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home7-hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\home8-hero-1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about\\home8-hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\mobile-app.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\mobile-app.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\about\\verified-freelancer.png",
+      "PackagePath": "staticwebassets\\web\\images\\about\\verified-freelancer.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\about-page-bg.html",
+      "PackagePath": "staticwebassets\\web\\images\\background\\about-page-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\compare-bg.html",
+      "PackagePath": "staticwebassets\\web\\images\\background\\compare-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-about-banner.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-about-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-bg-1.html",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-bg-1.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-employee-list-v1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-employee-list-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-job-list-v1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-job-list-v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-service-signle-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-service-signle-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-service-v1-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-service-v1-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-service-v2-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-service-v2-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-service-v3-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-service-v3-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-service-v4-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-service-v4-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\cta-service-v6-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\cta-service-v6-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home11-cta-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home11-cta-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home11-cta-2.png",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home11-cta-2.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home11-cta-3.png",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home11-cta-3.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home12-cta-1.png",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home12-cta-1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home12-hero-bg.png",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home12-hero-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home2-hero-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home2-hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home3-bg.png",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home3-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home3-cta-last.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home3-cta-last.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home6-newslatter-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home6-newslatter-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\background\\home8-hero-bg.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\background\\home8-hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\web\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\header-logo-dark.svg",
+      "PackagePath": "staticwebassets\\web\\images\\header-logo-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\header-logo.svg",
+      "PackagePath": "staticwebassets\\web\\images\\header-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\header-logo2.svg",
+      "PackagePath": "staticwebassets\\web\\images\\header-logo2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\header-logo3.svg",
+      "PackagePath": "staticwebassets\\web\\images\\header-logo3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\header-logo4.svg",
+      "PackagePath": "staticwebassets\\web\\images\\header-logo4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\icon\\all-filter-icon.svg",
+      "PackagePath": "staticwebassets\\web\\images\\icon\\all-filter-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\icon\\error-page-img.svg",
+      "PackagePath": "staticwebassets\\web\\images\\icon\\error-page-img.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\icons\\smile-star.html",
+      "PackagePath": "staticwebassets\\web\\images\\icons\\smile-star.html"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\mobile-dark-nav-icon.svg",
+      "PackagePath": "staticwebassets\\web\\images\\mobile-dark-nav-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\preloader.gif",
+      "PackagePath": "staticwebassets\\web\\images\\preloader.gif"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\vector-img\\left-top.png",
+      "PackagePath": "staticwebassets\\web\\images\\vector-img\\left-top.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\vector-img\\right-bottom.png",
+      "PackagePath": "staticwebassets\\web\\images\\vector-img\\right-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\images\\vector-img\\vector-service-v1.png",
+      "PackagePath": "staticwebassets\\web\\images\\vector-img\\vector-service-v1.png"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\ace-responsive-menu.js",
+      "PackagePath": "staticwebassets\\web\\js\\ace-responsive-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\chart-custome.js",
+      "PackagePath": "staticwebassets\\web\\js\\chart-custome.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\chart.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\dashboard-script.js",
+      "PackagePath": "staticwebassets\\web\\js\\dashboard-script.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\infobox.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\infobox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\isotop.js",
+      "PackagePath": "staticwebassets\\web\\js\\isotop.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery-3.6.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\jquery-migrate-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery-migrate-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\jquery-scrolltofixed-min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery-scrolltofixed-min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\jquery.counterup.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery.counterup.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\jquery.mmenu.all.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery.mmenu.all.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\maps.js",
+      "PackagePath": "staticwebassets\\web\\js\\maps.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\markerclusterer.js",
+      "PackagePath": "staticwebassets\\web\\js\\markerclusterer.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\owl.js",
+      "PackagePath": "staticwebassets\\web\\js\\owl.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\parallax.js",
+      "PackagePath": "staticwebassets\\web\\js\\parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\pricing-slider.js",
+      "PackagePath": "staticwebassets\\web\\js\\pricing-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\pricing-table.js",
+      "PackagePath": "staticwebassets\\web\\js\\pricing-table.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\script.js",
+      "PackagePath": "staticwebassets\\web\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\scrollbalance.js",
+      "PackagePath": "staticwebassets\\web\\js\\scrollbalance.js"
+    },
+    {
+      "Id": "C:\\Users\\SEVENCAN\\Desktop\\Bitirdiğim Projeler\\Hizmet Arama Projesi\\Proje\\wwwroot\\web\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Proje.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Proje.props",
+      "PackagePath": "build\\Proje.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Proje.props",
+      "PackagePath": "buildMultiTargeting\\Proje.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Proje.props",
+      "PackagePath": "buildTransitive\\Proje.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

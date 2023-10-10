@@ -1,0 +1,190 @@
+﻿@using Proje.ViewModels;
+@model List<Uzman_SearchViewModel>
+
+
+<body>
+	<div class="wrapper ovh">
+		<div class="preloader"></div>
+
+
+
+
+		<div class="body_content">
+
+			<!-- Breadcumb Sections -->
+			<section class="breadcumb-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="breadcumb-style1">
+								<div class="breadcumb-list">
+									@foreach (var altkategori in Model.Take(1))
+									{
+										<a href="/Home/Index">AnaSayfa</a>
+										<a href="#">Kategori</a>
+										<a href="#">@altkategori.Uzman.AltKategori.Isim</a>
+									}
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Breadcumb Sections -->
+			<section class="breadcumb-section pt-0">
+				<div class="cta-service-v1 cta-banner mx-auto maxw1700 pt120 pb120 bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg px30-lg">
+					
+
+						<div class="container">
+							<div class="row wow fadeInUp">
+								<div class="col-xl-5">
+								@if (!string.IsNullOrEmpty((string)ViewData["UzmanYokMesaj"]))
+								{
+									<div class="position-relative">
+										<h2>@ViewData["UzmanYokMesaj"]</h2>
+									</div>
+								}
+								@foreach (var AltKategori in Model.Take(1))
+								{
+									<div class="position-relative">
+										<h2>@AltKategori.Uzman.AltKategori.Isim</h2>
+									</div>
+								}
+									
+
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</section>
+
+			<!-- Listings All Lists -->
+			<section class="pt30 pb90">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="list-sidebar-style1 d-none d-lg-block">
+								<div class="accordion" id="accordionExample" style="margin-top:50px;">
+
+									<div class="card mb20 pb10 mt-0">
+									</div>
+									<div class="card mb20 pb0">
+										<div class="card-header active" id="heading1">
+											<h4>
+												<button class="btn btn-link ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Ücret</button>
+											</h4>
+										</div>
+										<div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+											<div class="card-body card-body px-0 pt-0">
+												<!-- Range Slider Desktop Version -->
+												<div class="range-slider-style1">
+													<div class="range-wrapper">
+														<div class="slider-range mb10 mt15"></div>
+														<div class="text-center">
+															<input type="text" class="amount" placeholder="500TL"><span class="fa-sharp fa-solid fa-minus mx-2 dark-color"></span>
+															<input type="text" class="amount2" placeholder="2500TL">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card mb20 pb5">
+										<div class="card-header active" id="heading2">
+											<h4>
+												<button class="btn btn-link ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">Lokasyon</button>
+											</h4>
+										</div>
+										<div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordionExample">
+											<div class="card-body card-body px-0 pt-0">
+
+												<div class="checkbox-style1 mb15">
+													<label class="custom_checkbox">
+														İstanbul
+														<input type="checkbox">
+														<span class="checkmark"></span>
+														<span class="right-tags">(3)</span>
+													</label>
+
+
+												</div>
+												
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<div class="row align-items-center mb20">
+								<div class="col-md-6">
+									<div class="text-center text-md-start">
+										<p class="text mb-0 mb10-sm"><span class="fw500">5,512</span> services available</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="page_control_shorting d-md-flex align-items-center justify-content-center justify-content-md-end">
+										<div class="dropdown-lists d-block d-lg-none me-2 mb10-sm">
+											<ul class="p-0 mb-0 text-center text-md-start">
+												<li>
+													<!-- Advance Features modal trigger -->
+													<button type="button" class="open-btn filter-btn-left"> <img class="me-2" src="images/icon/all-filter-icon.svg" alt=""> All Filter</button>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								@foreach (var uzman in Model)
+								{
+
+
+									<div class="col-sm-6 col-xl-4">
+										<div class="freelancer-style1 text-center bdr1 hover-box-shadow">
+											<div class="thumb w90 mb25 mx-auto position-relative rounded-circle">
+												<img class="rounded-circle mx-auto" src="/img/@uzman.Uzman.Kullanici.Picture" style="width:120px; height:120px;" alt="Uzman Fotografı">
+												<span class="online"></span>
+											</div>
+											<div class="details">
+												<h5 class="title mb-1">@uzman.Uzman.Ad @uzman.Uzman.Soyad</h5>
+												<p class="mb-0">@uzman.Uzman.Title</p>
+												<div class="review"><p><i class="fas fa-star fz10 review-color pr10"></i><span class="dark-color fw500">@String.Format("{0:0.0}", uzman.OrtalamaPuan)</span> (@uzman.YorumSayisi yorum)</p></div>
+
+												<hr class="opacity-100 mt20 mb15">
+												<div class="fl-meta d-flex align-items-center justify-content-between">
+
+
+													<a class="meta fw500 text-start">
+														Lokasyon<br><span class="fz14 fw400"></span>@uzman.Uzman.Ilce.IlceAdi / @uzman.Uzman.Sehir.SehirAdi
+													</a>
+
+													<a class="meta fw500 text-start">Ücret<br><span class="fz14 fw400">@uzman.Uzman.SaatlikUcret / Saat</span></a>
+
+												</div>
+												<div class="d-grid mt15">
+													<a href="@Url.Action("Index", "Uzman", new { isim = (uzman.Uzman.Kullanici.Ad + "_" + uzman.Uzman.Kullanici.Soyad).Replace(" ", "_") })" class="ud-btn btn-light-thm">Profile Git<i class="fal fa-arrow-right-long"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								}
+
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+		</div>
+	</div>
+	<!-- Wrapper End -->
+
+</body>

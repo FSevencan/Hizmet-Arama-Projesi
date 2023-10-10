@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Proje.Models.Abone>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="card card-table">
+					<div class="card-body">
+						<div class="title-header option-title d-sm-flex d-block">
+							<h5>Aboneler</h5>
+
+							
+						</div>
+						<div>
+							<br />
+							
+							<div class="table-responsive">
+								<table class="table all-package theme-table table-product" id="table_id">
+									<thead>
+										<tr>
+											
+											<th>Abone No</th>
+											<th>Email</th>
+											<th>Option</th>
+										</tr>
+									</thead>
+									<tbody>
+										@foreach (var subscriber in Model)
+										{
+											<tr>
+
+												<td><strong>@subscriber.AboneId</strong></td>
+												<td>@subscriber.Email</td>
+												
+												<td>
+													<ul>
+														
+
+														<li>
+															<a href="javascript:void(0);" onclick="deleteAbone(@subscriber.AboneId)">
+
+																<i class="ri-delete-bin-line"></i>
+																
+															</a>
+
+														</li>
+													</ul>
+
+												</td>
+
+											</tr>
+										}
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	function deleteAbone(id) {
+		Swal.fire({
+			title: 'Emin misiniz?',
+			text: "Abone silinecek!",
+			icon: 'warning',
+			showCancelButton: true,
+			confirmButtonColor: '#5cb85c',
+			cancelButtonColor: '#d33',
+			confirmButtonText: 'Sil',
+			cancelButtonText: 'Vazgeç'
+		}).then((result) => {
+			if (result.isConfirmed) {
+				$.ajax({
+					url: '@Url.Action("DeleteConfirmed", "AdminAbone")',
+					type: 'POST',
+					data: { id: id },
+					success: function (data) {
+						if (data.success) {
+							Swal.fire({
+								title: 'Başarılı!',
+								text: 'Abone silindi.',
+								icon: 'success',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							}).then(function () {
+								location.reload();
+							});
+						} else {
+							Swal.fire({
+								title: 'Hata!',
+								text: 'Abone silinemedi.',
+								icon: 'error',
+								confirmButtonColor: '#5cb85c',
+								confirmButtonText: 'Tamam'
+							});
+						}
+					},
+					error: function () {
+						Swal.fire({
+							title: 'Hata!',
+							text: 'Abone silinemedi.',
+							icon: 'error',
+							confirmButtonColor: '#5cb85c',
+							confirmButtonText: 'Tamam'
+						});
+					}
+				});
+			}
+		});
+	}
+</script>

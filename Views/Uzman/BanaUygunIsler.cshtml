@@ -1,0 +1,131 @@
+﻿@using Proje.Extenisons
+@model IEnumerable<Teklif>
+
+<body>
+	<div class="wrapper" style="margin-right:70px;">
+		<div class="preloader"></div>
+
+		<div class="dashboard_content_wrapper">
+			<div class="dashboard dashboard_wrapper pr30 pr0-xl">
+
+				<div class="dashboard__main pl0-md">
+					<div class="dashboard__content hover-bgc-color">
+						<div class="row pb40">
+
+							<div class="col-lg-9">
+								<div class="dashboard_title_area">
+									<h2>Bana Uygun İşler</h2>
+									<p class="text">Kategori ve Adresiniz ile eşleşen işler</p>
+								</div>
+							</div>
+							<div class="col-lg-3">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-12">
+								<div class="ps-widget bgc-white bdrs4 p30 mb30 overflow-hidden position-relative">
+									<div class="navtab-style1">
+
+										<div class="tab-content" id="nav-tabContent">
+											<div class="tab-pane fade show active" id="nav-item1" role="tabpanel" aria-labelledby="nav-item1-tab">
+												<div class="packages_table table-responsive">
+													<table class="table-style3 table at-savesearch">
+														<thead class="t-head">
+															<tr>
+																<th scope="col">Başlık</th>
+																<th scope="col">Kategori</th>
+																<th scope="col">Durum</th>
+																<th scope="col">Detay</th>
+																<th scope="col">Teklif</th>
+																
+															</tr>
+														</thead>
+														<tbody class="t-body">
+															@foreach (var teklif in Model)
+															{
+
+																<tr>
+																	<th scope="row">
+																		<div class="freelancer-style1 box-shadow-none row m-0 p-0 align-items-lg-end">
+																			<div class="d-lg-flex px-0">
+																				<div class="details mb15-md-md">
+																					<h5 class="title mb10">@teklif.Baslik</h5>
+																					<p class="mb-0 fz14 list-inline-item mb5-sm pe-1"><i class="flaticon-place fz16 vam text-thm2 me-1"></i>@teklif.Ilce.IlceAdi / @teklif.Sehir.SehirAdi</p>
+																					<p class="mb-0 fz14 list-inline-item mb5-sm pe-1"><i class="flaticon-30-days fz16 vam text-thm2 me-1 bdrl1 pl15 pl0-xs bdrn-xs"></i> @teklif.ZamanDamgasi.ZamandanFark()</p>
+																				</div>
+																			</div>
+																		</div>
+																	</th>
+																	<td class="vam"><span class="fz15 fw400">@teklif.AltKategori.Isim</span></td>
+																	<td class="vam"><span class="pending-style style6">@teklif.Durum</span></td>
+																	<td><a href="/Teklif/Detay/@teklif.TeklifId" class="table-action fz15 fw500 text-thm2"><span class="flaticon-website me-2 vam"></span>Detay</a></td>
+																	<td> <a href="@Url.Action("Index", "Mesaj", new { id = teklif.Musteri.KullaniciId })" style="width:145px; height:55px;" class="ud-btn btn-thm">Teklif Ver</a></td>
+																	
+																</tr>
+
+															}
+
+														</tbody>
+													</table>
+													<div class="mbp_pagination text-center mt30">
+														<ul class="page_navigation">
+															@if (ViewBag.SayfaNo > 1)
+															{
+																<li class="page-item">
+																	<a class="page-link" href="@Url.Action("BanaUygunIsler", "Uzman", new { sayfaNumarasi = ViewBag.SayfaNo - 1 })">
+																		<span class="fas fa-angle-left"></span>
+																	</a>
+																</li>
+															}
+
+															@for (int i = 1; i <= ViewBag.ToplamSayfaSayisi; i++)
+															{
+																if (i == ViewBag.SayfaNo)
+																{
+																	<li class="page-item active" aria-current="page">
+																		<a class="page-link" href="#">
+																			@i <span class="sr-only">(current)</span>
+																		</a>
+																	</li>
+																}
+																else
+																{
+																	<li class="page-item">
+																		<a class="page-link" href="@Url.Action("BanaUygunIsler", "Uzman", new { sayfaNumarasi = i })">
+																			@i
+																		</a>
+																	</li>
+																}
+															}
+
+															@if (ViewBag.SayfaNo < ViewBag.ToplamSayfaSayisi)
+															{
+																<li class="page-item">
+																	<a class="page-link" href="@Url.Action("BanaUygunIsler", "Uzman", new { sayfaNumarasi = ViewBag.SayfaNo + 1 })">
+																		<span class="fas fa-angle-right"></span>
+																	</a>
+																</li>
+															}
+														</ul>
+														<p class="mt10 mb-0 pagination_page_count text-center"> @ViewBag.SayfaNo - @ViewBag.ToplamSayfaSayisi sayfa mevcut</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Wrapper End -->
+
+</body>
+<br />
+<br />
+<br />

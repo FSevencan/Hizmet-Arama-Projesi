@@ -1,0 +1,164 @@
+﻿
+@model List<AltKategori>
+
+<body>
+    <div class="wrapper ovh">
+        
+        
+        <div class="hiddenbar-body-ovelay"></div>
+
+        
+        <div class="body_content">
+            
+            <!-- Breadcumb Sections -->
+            <section class="breadcumb-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="breadcumb-style1">
+                                <div class="breadcumb-list">
+                                    @foreach (var kategori in Model.Take(1))
+                                    {
+                                        <a href="/Home/Index">AnaSayfa</a>
+                                        <a href="#">Kategori</a>
+                                        <a href="#">@kategori.Kategori.Isim</a>
+                                    }
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Breadcumb Sections -->
+            <section class="breadcumb-section pt-0">
+                <div class="cta-service-v1 cta-banner mx-auto maxw1700 pt120 pb120 bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg px30-lg">
+                
+                    <div class="container">
+                        <div class="row wow fadeInUp">
+                            <div class="col-xl-5">
+                                <div class="position-relative">
+                                    @foreach (var kategori in Model.Take(1))
+                                    {
+                                        <h2>@kategori.Kategori.Isim</h2>
+                                    }
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Listings All Lists -->
+            <section class="pt30 pb90">
+                <div class="container">
+                    <div class="row align-items-center mb20">
+                    </div>
+                    <div class="row">
+                        @foreach (var altKategori in Model)
+                        {
+                            
+                        <div class="col-sm-6 col-xl-3">
+                            <div class="listing-style1">
+                                <div class="list-thumb">
+                                    <img class="w-100" src="/img/@altKategori.Fotograf" style="height:200px;" alt="kategori fotografı">
+                                    <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+                                </div>
+                                <div class="list-content">
+                                    
+                                    <h3 class="list-title">@altKategori.Isim</h3>
+                                    <div class="review-meta d-flex align-items-center">
+                                      
+                                       
+                                    </div>
+                                    <hr class="my-2">
+                                    <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                                        <a href="#">
+                                            <span class="position-relative mr12">
+                                                    <a href="@Url.Action("KategoriTeklif", "Teklif", new { isim = altKategori.Isim.Replace(" ", "-") })" class="ud-btn btn-light-thm">Teklif Al<i class="fal fa-arrow-right-long"></i></a>
+                                            </span>
+                                           
+                                        </a>
+                                        <div class="budget">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        }
+
+
+                    </div>
+                    <div class="mbp_pagination text-center mt30">
+                        <ul class="page_navigation">
+                            @if (ViewBag.SayfaNo > 1)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Index", "AltKategori", new { isim = ViewBag.Isim, sayfaNo = ViewBag.SayfaNo - 1 })">
+                                        <span class="fas fa-angle-left"></span>
+                                    </a>
+                                </li>
+                            }
+
+                            @for (int i = 1; i <= ViewBag.ToplamSayfaSayisi; i++)
+                            {
+                                if (i == ViewBag.SayfaNo)
+                                {
+                                    <li class="page-item active" aria-current="page">
+                                        <a class="page-link" href="#">
+                                            @i <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="page-item">
+                                        <a class="page-link" href="@Url.Action("Index", "AltKategori", new { isim = ViewBag.Isim, sayfaNo = i })">
+                                            @i
+                                        </a>
+                                    </li>
+                                }
+                            }
+
+                            @if (ViewBag.SayfaNo < ViewBag.ToplamSayfaSayisi)
+                            {
+                                <li class="page-item">
+                                    <a class="page-link" href="@Url.Action("Index", "AltKategori", new { isim = ViewBag.Isim, sayfaNo = ViewBag.SayfaNo + 1 })">
+                                        <span class="fas fa-angle-right"></span>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                        <p class="mt10 mb-0 pagination_page_count text-center"> @ViewBag.SayfaNo - @ViewBag.ToplamSayfaSayisi sayfa mevcut</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+    <!-- Wrapper End -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.mmenu.all.js"></script>
+    <script src="js/ace-responsive-menu.js"></script>
+    <script src="js/jquery-scrolltofixed-min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/isotop.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/pricing-slider.js"></script>
+    <!-- Custom script for all pages -->
+    <script src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from creativelayers.net/themes/freeio-html/page-service-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Jul 2023 10:46:07 GMT -->
+</html>

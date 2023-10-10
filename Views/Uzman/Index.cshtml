@@ -1,0 +1,423 @@
+﻿@model Proje.ViewModels.Uzman_YorumViewModel
+
+<style>
+  @@media only screen and (max-width: 768px) {
+  .img-responsive {
+    width: 85px;
+    height:85px;/* veya istediğiniz başka bir boyut */
+  }
+}
+</style>
+
+@{
+    double toplamDerece = Model.UzmanYorumlar.Sum(y => y.Derece ?? 0);
+    double ortalamaDerece = Model.UzmanYorumlar.Count() > 0 ? toplamDerece / Model.UzmanYorumlar.Count() : 0;
+}
+
+
+<body>
+    <div class="wrapper ovh">
+        <div class="preloader"></div>
+
+        <div class="body_content">
+
+            <!-- Breadcumb Sections -->
+            <section class="breadcumb-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-lg-10">
+                            <div class="breadcumb-style1 mb10-xs">
+                                <div class="breadcumb-list">
+                                    <a href="/Home/Index">AnaSayfa</a>
+                                    <a href="#">Uzman</a>
+                                    <a href="#">@Model.UzmanProfil.Ad @Model.UzmanProfil.Soyad</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Breadcumb Sections -->
+            <section class="breadcumb-section pt-0">
+                <div class="cta-service-v1 freelancer-single-style mx-auto maxw1700 pt120 pt60-sm pb120 pb60-sm bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg px30-lg">
+                    
+                    <div class="container">
+                        <div class="row wow fadeInUp">
+                            <div class="col-xl-7">
+                                <div class="position-relative">
+
+                                    <div class="list-meta d-sm-flex align-items-center mt30">
+                                        <a class="position-relative freelancer-single-style" href="#">
+                                            <span class="online"></span>
+                                            <img class="rounded-circle wa-sm mb15-sm img-responsive" style="width:100px;" src="/img/@Model.UzmanProfil.Kullanici.Picture" alt="Freelancer Photo">
+                                        </a>
+                                        <div class="ml20 ml0-xs">
+                                            <h5 class="title mb-1">@Model.UzmanProfil.Ad @Model.UzmanProfil.Soyad</h5>
+                                            <p class="mb-0">@Model.UzmanProfil.Title</p>
+                                            <p class="mb-0 dark-color fz15 fw500 list-inline-item mb5-sm">
+                                                <i class="fas fa-star vam fz10 review-color me-2"></i>
+                                                @String.Format("{0:0.0}", ortalamaDerece) (@Model.UzmanYorumlar.Count() yorum)
+                                            </p>
+                                            <p class="mb-0 dark-color fz15 fw500 list-inline-item ml15 mb5-sm ml0-xs"><i class="flaticon-place vam fz20 me-2"></i>@Model.UzmanProfil.Ilce.IlceAdi / @Model.UzmanProfil.Sehir.SehirAdi</p>
+                                            <p class="mb-0 dark-color fz15 fw500 list-inline-item ml15 mb5-sm ml0-xs"><i class="flaticon-30-days vam fz20 me-2"></i> @((Model.UzmanProfil.KayıtTarihi.HasValue) ? Model.UzmanProfil.KayıtTarihi.Value.ToShortDateString() : "")</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Service Details -->
+            <section class="pt10 pb90 pb30-md">
+                <div class="container">
+                    <div class="row wow fadeInUp">
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-sm-6 col-xl-3">
+                                    <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                                        <div class="icon flex-shrink-0"><span class="flaticon-target"></span></div>
+                                        <div class="details">
+                                            <h5 class="title">İş Başarısı</h5>
+                                            <p class="mb-0 text">98%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xl-3">
+                                    <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                                        <div class="icon flex-shrink-0"><span class="flaticon-goal"></span></div>
+                                        <div class="details">
+                                            <h5 class="title">Bitmiş İşler</h5>
+                                            <p class="mb-0 text">32</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-xl-3">
+                                    <div class="iconbox-style1 contact-style d-flex align-items-start mb30">
+                                        <div class="icon flex-shrink-0"><span class="flaticon-file-1"></span></div>
+                                        <div class="details">
+                                            <h5 class="title">Teklifler</h5>
+                                            <p class="mb-0 text">58</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-about">
+                                <h4>Uzman Tanıtım Yazısı</h4>
+                                <p class="text mb30">@Model.UzmanProfil.Aciklama </p>
+
+                                <hr class="opacity-100 mb60">
+                                <h4 class="mb30">Hizmet Verdiği Kategori</h4>
+                                <div class="row mb35">
+                                    <div class="col-sm-6 col-xl-4">
+                                        <div class="listing-style1">
+                                            <div class="list-thumb">
+                                                <img class="w-100" src="/img/@Model.UzmanProfil.AltKategori.Fotograf" alt="">
+
+                                            </div>
+                                            <div class="list-content">
+                                                <p class="list-text body-color fz14 mb-1">@Model.UzmanProfil.AltKategori.Isim</p>
+
+
+                                                <hr class="my-2">
+                                                <div class="list-meta mt15">
+                                                    <div class="budget">
+                                                        <p class="mb-0 body-color">Saatlik Ucret:<span class="fz17 fw500 dark-color ms-1">@Model.UzmanProfil.SaatlikUcret TL</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <hr class="opacity-100 mb60">
+                            <div class="product_single_content mb60" id="yorumlar">
+                                <div class="mbp_pagination_comments">
+                                    <div class="row">
+                                       
+
+                                        <div class="col-lg-12">
+                                            <div class="total_review mb30">
+                                                <h4 id="yorumSayisi">@Model.UzmanYorumlar.Count() Yorum</h4>
+                                            </div>
+                                            <div class="d-md-flex align-items-center mb30">
+                                                <div class="total-review-box d-flex align-items-center text-center mb30-sm">
+                                                    <div class="wrapper mx-auto">
+                                                      <div class="t-review mb15" id="ortalamaDereceDisplay">@String.Format("{0:0.00}", ortalamaDerece)</div>
+                                                      <h5>Ortalama Derece</h5> 
+                                                        <p id="degerlendirmeSayisi" class="text mb-0">@Model.UzmanYorumlar.Count()  değerlendirme</p>
+                                                    </div>
+                                                </div>
+                                                <div class="wrapper ml60 ml0-sm" id="yildizDagilimiContainer">
+                                                    @for (int i = 5; i >= 1; i--)
+                                                    {
+                                                        var yildizSayisi = Model.YildizDagilimi.ContainsKey(i) ? Model.YildizDagilimi[i] : 0;
+                                                        var yuzde = Model.UzmanYorumlar.Count() > 0 ? ((double)yildizSayisi / Model.UzmanYorumlar.Count()) * 100 : 0;
+                                                        <div class="review-list d-flex align-items-center mb10">
+                                                            <div class="list-number">@i Star</div>
+                                                            <div class="progress">
+                                                                <div class="progress-bar" id="progressBarStar@i" style="width: @yuzde%;" role="progressbar" aria-valuenow="@yuzde" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            </div>
+                                                            <div class="value text-end" id="starCount@i">@yildizSayisi</div>
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="yorumlar-container" >
+                                            @foreach (var yorum in Model.UzmanYorumlar)
+                                            {
+
+                                                <div class="mbp_first position-relative d-flex align-items-center justify-content-start mb30-sm">
+                                                    <img src="/img/@yorum.Musteri.Kullanici.Picture" class="mr-3" style="width:55px;" alt="musteri profil resmi">
+                                                    <div class="ml20">
+                                                        <h6 class="mt-0 mb-0">@yorum.Musteri.Ad @yorum.Musteri.Soyad</h6>
+
+                                                        <!-- Kullanıcının vermiş olduğu dereceyi yıldızlarla göstermek için  -->
+                                                        <div class="user-rating mt-1">
+                                                            @for (int i = 1; i <= 5; i++)
+                                                            {
+                                                                if (i <= yorum.Derece)
+                                                                {
+                                                                    <i class="fas fa-star review-color"></i>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <i class="far fa-star review-color"></i>
+                                                                }
+                                                            }
+                                                        </div>
+                                                        <!-- Derece gösterimi sonu -->
+
+                                                        <div><span class="fz14">@yorum.YorumTarihi</span></div>
+                                                    </div>
+                                                </div>
+                                                <p class="text mt20 mb20">@yorum.Yorum</p>
+
+                                                <div class="review_cansel_btns d-flex">
+                                                    <a href="#"><i class="fas fa-thumbs-up"></i>Katılıyorum</a>
+                                                    <a href="#"><i class="fas fa-thumbs-down"></i>Katılmıyorum</a>
+                                                </div>
+                                                <br>
+
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bsp_reveiw_wrt">
+                                <h6 class="fz17">Yorum Ekle</h6>
+                                <br />
+                                <h6>Uzmana verdiğiniz puan</h6>
+                                <div class="clickable-stars">
+                                    <i class="fas fa-star review-color"></i>  <!-- İlk yıldız seçili olarak gösteriliyor -->
+                                    <i class="far fa-star review-color"></i>
+                                    <i class="far fa-star review-color"></i>
+                                    <i class="far fa-star review-color"></i>
+                                    <i class="far fa-star review-color"></i>
+                                </div>
+
+                                <form class="comments_form mt30 mb30-md" method="post" asp-controller="UzmanYorum" asp-action="Create">
+                                    <input type="hidden" asp-for="UzmanYorum.UzmanProfilId" value="@ViewData["UzmanId"]" />
+                                    <input type="hidden" id="ratingValue" asp-for="UzmanYorum.Derece" value="1" />
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="mb-4">
+                                                <label class="fw500 fz16 ff-heading dark-color mb-2">Yorum Yaz</label>
+                                                <textarea class="pt15" rows="6" asp-for="UzmanYorum.Yorum"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button type="submit" class="ud-btn btn-thm">Gönder<i class="fal fa-arrow-right-long"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-sidebar ms-lg-auto">
+                                <div class="price-widget pt25 widget-mt-minus bdrs8">
+
+
+                                    <div class="d-grid">
+                                        <a href="@Url.Action("UzmanTeklif", "Teklif", new { isim = Model.UzmanProfil.Kullanici.Ad + "_" + Model.UzmanProfil.Kullanici.Soyad })" class="ud-btn btn-thm">Teklif Al<i class="fal fa-arrow-right-long"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+</body>
+
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Sadece tıklanabilir yıldızları seçtik
+        const stars = document.querySelectorAll(".clickable-stars .fa-star");
+        const ratingValue = document.getElementById("ratingValue");
+
+        stars.forEach((star, index) => {
+            star.addEventListener("click", function () {
+                clearStars();
+                for (let i = 0; i <= index; i++) {
+                    stars[i].classList.remove("far");
+                    stars[i].classList.add("fas");
+                }
+                ratingValue.value = index + 1;
+            });
+        });
+
+        function clearStars() {
+            stars.forEach(star => {
+                star.classList.remove("fas");
+                star.classList.add("far");
+            });
+        }
+    });
+</script>
+
+
+
+ <script>
+    $(document).ready(function () {
+
+        // Gönder butonunu bir değişkene atadık
+        var submitButton = $('.comments_form button[type="submit"]');
+        var textarea = $('textarea[name="UzmanYorum.Yorum"]');
+
+        function updateSubmitButtonStatus() {
+            // Eğer textarea boş ise butonu pasif yap
+            if (textarea.val().trim() === "") {
+                submitButton.prop('disabled', true);
+            } else {
+                // Değilse aktif yap
+                submitButton.prop('disabled', false);
+            }
+        }
+
+        // Sayfa yüklendiğinde butonu pasif yapalım ve kontrol fonksiyonunu çalıştıralım
+        updateSubmitButtonStatus();
+
+        // Textarea'da bir değişiklik olduğunda kontrolü yapalım
+        textarea.on('input', updateSubmitButtonStatus);
+
+        $('.comments_form').submit(function (e) {
+            e.preventDefault();
+
+            $.ajax({
+                type: "POST",
+                url: $(this).attr('action'),
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            text: response.message,
+                            width: '390px',
+                            confirmButtonColor: '#5bbb7b',
+                            confirmButtonText: 'Tamam'
+                        }).then(() => {
+                            // Yorumu temizle ve "Gönder" butonunun durumunu güncelle
+                            textarea.val('');
+                            updateSubmitButtonStatus();
+
+                            // Derecelendirmeyi sıfırla
+                            $('#ratingValue').val(1);
+                            $(".clickable-stars .fa-star").removeClass('fas').addClass('far'); // Tüm yıldızları sıfırla
+
+                            // Yorumlar div'ine kaydır
+                            $('html, body').animate({
+                                scrollTop: $("#yorumlar").offset().top
+                            }, 500);
+                        });
+
+                        // Yıldızları oluşturuyoruz
+                        let starsHTML = '';
+                        for (let i = 1; i <= 5; i++) {
+                            starsHTML += i <= response.derece
+                                ? '<i class="fas fa-star review-color"></i>'
+                                : '<i class="far fa-star review-color"></i>';
+                        }
+
+                        // Yorum şablonunu dolduruyoruz
+                        var yorumTemplate = `
+                                    <div class="col-md-12 yorum-container">
+                                        <div class="mbp_first position-relative d-flex align-items-center justify-content-start mb30-sm">
+                                            <img src="/img/${response.musteriProfilResmi}" class="mr-3" style="width:55px;" alt="musteri profil resmi">
+                                            <div class="ml20">
+                                                <h6 class="mt-0 mb-0">${response.musteriAd} ${response.musteriSoyad}</h6>
+                                                <div class="user-rating mt-1">
+                                                    ${starsHTML}
+                                                </div>
+                                                <div><span class="fz14">${new Date(response.yorumTarihi || Date.now()).toLocaleString()}</span></div>
+                                            </div>
+                                        </div>
+                                        <p class="text mt20 mb20">${response.yorum}</p>
+                                        <div class="review_cansel_btns d-flex">
+                                            <a href="#"><i class="fas fa-thumbs-up"></i>Katılıyorum</a>
+                                            <a href="#"><i class="fas fa-thumbs-down"></i>Katılmıyorum</a>
+                                        </div>
+                                        <br>
+                                    </div>
+                            `;
+
+                        $(yorumTemplate).prependTo('.yorumlar-container');
+
+                        // Yorum sayısını, ortalama dereceyi ve yıldız dağılımını güncelle
+                        $('#yorumSayisi').text(response.yorumSayisi + ' Yorum');
+                        $('#degerlendirmeSayisi').text(response.yorumSayisi + ' değerlendirme');
+                        $('#ortalamaDereceDisplay').text(response.ortalamaDerece.toFixed(2));
+
+                        // Yıldız dağılımını güncelle
+                        for (let i = 1; i <= 5; i++) {
+                            // Eğer yıldız dağılımı objesinde bu yıldız değeri için bir anahtar varsa onu al, yoksa 0 al.
+                            let yildizSayisi = response.yildizDagilimi.hasOwnProperty(i.toString()) ? response.yildizDagilimi[i.toString()] : 0;
+                            let yuzde = response.yorumSayisi > 0 ? (yildizSayisi / response.yorumSayisi) * 100 : 0;
+
+                            // ProgressBar'ın genişliğini güncelle
+                            $('#progressBarStar' + i).css('width', yuzde + '%').attr('aria-valuenow', yuzde);
+
+                            // Yıldız sayısını güncelle
+                            $('#starCount' + i).text(yildizSayisi);
+                        }
+
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            html: 'Yorum yapabilmek için lütfen önce giriş yapın. <a href="/User/SignIn">>> Giriş Yap!</a>',
+                            width: '390px',
+                            confirmButtonText: 'Tamam',
+                            showConfirmButton: true,
+                            background: '#ffffff',
+                            confirmButtonColor: '#5bbb7b',
+                            customClass: {
+                                title: 'my-custom-class'
+                            }
+                        })
+                    }
+                },
+                error: function (error) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Bir hata oluştu!',
+                        confirmButtonText: 'Tamam'
+                    });
+                }
+            });
+        });
+    });
+</script>

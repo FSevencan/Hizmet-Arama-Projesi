@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proje
+build_property.RootNamespace = Proje
+build_property.ProjectDir = C:\Users\SEVENCAN\Desktop\Bitirdiğim Projeler\Hizmet Arama Projesi\Proje\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\SEVENCAN\Desktop\Bitirdiğim Projeler\Hizmet Arama Projesi\Proje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminAbone/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BYm9uZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminAltKategori/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BbHRLYXRlZ29yaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminAltKategori/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BbHRLYXRlZ29yaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminAltKategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BbHRLYXRlZ29yaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminKategori/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LYXRlZ29yaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminKategori/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LYXRlZ29yaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/AdminKategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5LYXRlZ29yaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Adminİletisim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW7EsGxldGlzaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Home/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Role/AssignRoleToUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBc3NpZ25Sb2xlVG9Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Role/RoleCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxSb2xlQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Role/RoleUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxSb2xlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/AltKategori/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0S2F0ZWdvcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Member/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Member/PasswordChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXFBhc3N3b3JkQ2hhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Mesaj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYWpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Musteri/CustomerProfileEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxDdXN0b21lclByb2ZpbGVFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Musteri/Tekliflerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxUZWtsaWZsZXJpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Shared/_NavbarLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Teklif/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVrbGlmXERldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Teklif/KategoriTeklif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVrbGlmXEthdGVnb3JpVGVrbGlmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Teklif/UzmanTeklif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVrbGlmXFV6bWFuVGVrbGlmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/User/CustomerSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDdXN0b21lclNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/User/ExpertSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFeHBlcnRTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/User/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/User/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Uzman/BanaUygunIsler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5cQmFuYVV5Z3VuSXNsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Uzman/ExpertProfileEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5cRXhwZXJ0UHJvZmlsZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Uzman/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Uzman/Tekliflerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5cVGVrbGlmbGVyaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/İletisim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLBsZXRpc2ltXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-ydqfqojzu5
+
+[C:/Users/SEVENCAN/Desktop/Bitirdiğim Projeler/Hizmet Arama Projesi/Proje/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wzp8xvl3am

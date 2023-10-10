@@ -1,0 +1,130 @@
+﻿@using Proje.ViewModels;
+@using Proje.Extenisons
+@model MesajViewModel
+
+<style>
+    .inbox_chatting_box {
+        overflow-y: auto;
+        height: 100%;
+        position: relative;
+        padding-bottom: 70px; 
+    }
+</style>
+
+<body>
+    <div class="wrapper" style="margin-right:70px;">
+        <div class="preloader"></div>
+
+        <div class="dashboard_content_wrapper">
+            <div class="dashboard dashboard_wrapper pr30 pr0-xl">
+                <div class="dashboard__main pl0-md">
+                    <div class="dashboard__content hover-bgc-color">
+                        <div class="row pb40">
+                            <div class="col-lg-12">
+
+                                 <div class="dashboard_title_area">
+                                   <h2>Mesajlarım</h2>
+ 
+                                  </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row mb40">
+                            <div class="col-lg-6 col-xl-5 col-xxl-4">
+                                <div class="message_container">
+                                    <div class="inbox_user_list">
+                                        <div class="chat-member-list pr20">
+                                            @foreach (var kullanici in Model.Kullanicilar)
+                                            {
+                                                
+                                                <div class="list-item pt5">
+                                                    <a asp-controller="Mesaj" asp-action="Index" asp-route-id="@kullanici.Id">
+                                                        <div class="d-flex align-items-center position-relative">
+                                                            <img class="img-fluid float-start rounded-circle mr10" src="/img/@kullanici.Picture" alt="ms1.png">
+                                                            <div class="d-sm-flex">
+                                                                <div class="d-inline-block">
+                                                                    <div class="fz15 fw500 dark-color ff-heading mb-0">@kullanici.Ad @kullanici.Soyad</div>
+                                                                </div>
+                                                                <div class="iul_notific">
+                                                                    <small>@Model.KullaniciSonMesajZamanlari[kullanici.Id].ZamandanFark()</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            }
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-7 col-xxl-8">
+                                <div class="message_container mt30-md">
+                                    <div class="user_heading px-0 mx30">
+                                        <div class="wrap">
+                                            @foreach (var secilenKullanıcı in Model.Kullanicilar.Where(k => k.Id == Model.SecilenKullaniciId))
+                                            {
+                                                <img class="img-fluid mr10" src="/img/@secilenKullanıcı.Picture" style="width:40px;" alt="kullanıcı fotografı">
+                                                <div class="meta d-sm-flex justify-content-sm-between align-items-center">
+                                                    <div class="authors">
+                                                        <h6 class="name mb-0" style="margin-top:12px;">@secilenKullanıcı.Ad @secilenKullanıcı.Soyad</h6>
+                                                    </div>
+                                                     
+                                                    @foreach (var teklifAdi in Model.Mesajlar.Take(1))
+                                                    {
+                                                       <strong style="color:#4BBB7B">@teklifAdi.Teklif.Baslik</strong>
+                                                    }
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="inbox_chatting_box" style="">
+                                        <ul class="chatting_content">
+                                            @foreach (var mesaj in Model.Mesajlar)
+                                            {
+                                                if (mesaj.GonderenId == Model.CurrentUserId)
+                                                {
+                                                    <li class="reply float-end">
+                                                        <div class="d-flex align-items-center justify-content-end mb15">
+                                                            <div class="title fz15"><small class="mr10">@mesaj.ZamanDamgasi.ToShortTimeString()</small> @mesaj.Gonderen.Ad @mesaj.Gonderen.Soyad</div>
+                                                            <img class="img-fluid rounded-circle align-self-end ml10" src="/img/@mesaj.Gonderen.Picture" style="width:30px;" alt="Kullanıcı Resmi">
+                                                        </div>
+                                                        <p>@mesaj.Icerik</p>
+                                                    </li>
+                                                }
+                                                else
+                                                {
+                                                    <li class="sent float-start">
+                                                        <div class="d-flex align-items-center mb15">
+                                                            <img class="img-fluid rounded-circle align-self-start mr10" src="/img/@mesaj.Gonderen.Picture" style="width:30px;" alt="Kullanıcı Resmi">
+                                                            <div class="title fz15">@mesaj.Gonderen.Ad @mesaj.Gonderen.Soyad <small class="ml10">@mesaj.ZamanDamgasi.ToShortTimeString()</small></div>
+                                                        </div>
+                                                        <p>@mesaj.Icerik</p>
+                                                    </li>
+                                                }
+                                            }
+                                        </ul>
+                                    </div>
+                                    <div class="mi_text">
+                                        <div class="message_input">
+                                            <form class="d-flex align-items alaign-center" asp-controller="Mesaj" asp-action="Gonder" method="post">
+                                                <input class="form-control" name="Icerik" type="search" placeholder="Mesaj Gönder" aria-label="Search">
+                                                <input type="hidden" name="alanId" value="@Model.SecilenKullaniciId" />
+                                                <input type="hidden" name="TeklifId" value="@Model.TeklifId.ToString()" />
+                                                <button class="btn ud-btn btn-thm" type="submit" disabled="@(Model.SecilenKullaniciId == null)">Gönder<i class="fal fa-arrow-right-long"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<br />
+<br />
+<br />

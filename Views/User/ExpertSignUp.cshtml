@@ -1,0 +1,290 @@
+﻿@using Proje.ViewModels;
+
+@{
+
+    ViewData["Title"] = "SignUp";
+
+}
+@model SignUpViewModel
+
+<style>
+
+    .bgc-thm4 {
+        background-color: #f1f1f1; /* Arka plan rengi burada belirleniyor */
+    }
+
+    /*SweetAlert Mesaj Kutusu Css Ayarları*/
+
+    .swal-title-custom {
+        color: #5BBB7B;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .swal-content-custom {
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .swal-confirm-button-custom {
+        background-color: #5bbb7b;
+        color: #ffffff;
+        font-size: 16px;
+        border: none;
+    }
+
+        .swal-confirm-button-custom:hover {
+            background-color: #5BBB7B;
+        }
+
+    #swal-input-group {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* dört eşit sütun oluşturur */
+        justify-content: center; /* kutuları merkeze yerleştirir */
+        width: 50px;
+        margin: auto;
+    }
+
+    .my-custom-title-class {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #swal-input-group .swal2-input {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 12px; /* Sağdaki boşluk */
+        margin-left: 12px; /* Soldaki boşluk */
+    }
+</style>
+<script src="~/js/SignUp.js"></script>
+
+<body class="bgc-thm4">
+
+
+    <div class="body_content">
+
+
+        <section class="our-register">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
+                        <div class="main-title text-center">
+                            <h2 class="title">Hizmet Vermeye Başlamak İçin Hemen Kayıt Olun!</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInRight" data-wow-delay="300ms">
+                    <div class="col-xl-6 mx-auto">
+                        <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
+                            <div class="mb30">
+                                <h4>Hesabını Oluştur!</h4>
+                                <p class="text mt20">Zaten hesabınız var mı? <a href="page-login.html" class="text-thm">Giriş Yap!</a></p>
+                            </div>
+
+
+                            <div id="validationErrors" class="alert-danger" role="alert">
+                                <!-- Hatalar burada listelenecek -->
+                            </div>
+
+                            <div id="error-summary" class="alert-danger" role="alert">
+                                <!-- Hatalar burada listelenecek -->
+                            </div>
+
+                            <form asp-controller="User" asp-action="ExpertSignUp" method="post" id="sign-up-form">
+                                <div class="mb25">
+                                    <label class="form-label fw500 dark-color">Ad</label>
+                                    <input type="text" name="FirstName" id="FirstName" class="form-control" placeholder="Ali">
+                                </div>
+                                <div class="mb25">
+                                    <label class="form-label fw500 dark-color">Soyad</label>
+                                    <input type="text" name="LastName" id="LastName" class="form-control" placeholder="Veli">
+                                </div>
+                                <div class="mb25">
+                                    <label class="form-label fw500 dark-color">Email</label>
+                                    <input type="email" name="Email" id="Email" class="form-control" placeholder="ali.veli@example.com">
+                                </div>
+                                <div class="mb15">
+                                    <label class="form-label fw500 dark-color">Password</label>
+                                    <input type="password" name="Password" id="Password" class="form-control" placeholder="*******">
+                                </div>
+                                <div class="mb15">
+                                    <label class="form-label fw500 dark-color">Şifre Tekrar</label>
+                                    <input type="password" name="PasswordConfirm" id="PasswordConfirm" class="form-control" placeholder="*******">
+                                </div>
+                                <div class="d-grid mb20">
+                                    <button id="submit-button" class="ud-btn btn-thm default-box-shadow2" type="submit">Hesap Oluştur <i class="fal fa-arrow-right-long"></i></button>
+                                </div>
+                            </form>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+</body>
+
+<script>
+
+    // Email Onay Kodu ve Doğrulama //
+
+    document.getElementById('sign-up-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        $.ajax({
+            type: 'POST',
+            url: '/User/ExpertSignUp',
+            data: $('#sign-up-form').serialize(),
+            success: function (data) {
+                if (data.success) {
+                    showVerificationModal();
+                } else if (data.errors) {
+                    $('#error-summary').html('');
+                    data.errors.forEach(function (errorMessage) {
+                        var errorElement = $('<p>').text(errorMessage);
+                        $('#error-summary').append(errorElement);
+                    });
+                }
+            }
+        });
+    });
+
+    function showVerificationModal() {
+        Swal.fire({
+            title: '<span class="my-custom-title-class">Lütfen e-posta adresinize gönderilen doğrulama kodunu girin</span>',
+            html: '<div id="swal-input-group">' +
+                '<input id="swal-input1" class="swal2-input" maxlength="1">' +
+                '<input id="swal-input2" class="swal2-input" maxlength="1">' +
+                '<input id="swal-input3" class="swal2-input" maxlength="1">' +
+                '<input id="swal-input4" class="swal2-input" maxlength="1">' +
+                '</div>',
+            focusConfirm: false,
+            confirmButtonText: 'Doğrula',
+            showCancelButton: true,
+            cancelButtonText: 'Kodu Tekrar Gönder',
+            allowOutsideClick: false,
+            width: '500px',
+            confirmButtonColor: '#5BBB7B',
+            customClass: {
+                title: 'swal-title-custom',
+                content: 'swal-content-custom',
+                confirmButton: 'swal-confirm-button-custom',
+                cancelButton: 'swal-cancel-button-custom'
+            },
+            preConfirm: () => {
+                return [
+                    document.getElementById('swal-input1').value,
+                    document.getElementById('swal-input2').value,
+                    document.getElementById('swal-input3').value,
+                    document.getElementById('swal-input4').value
+                ].join('');
+            },
+            didOpen: () => {
+                const inputs = Array.from(document.querySelectorAll('#swal-input-group .swal2-input'));
+                inputs.forEach((input, index) => {
+                    input.addEventListener('input', () => {
+                        if (input.value) {
+                            if (index < inputs.length - 1) {
+                                inputs[index + 1].focus();
+                            }
+                        }
+                    });
+                });
+            }
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    type: "POST",
+                    url: '/User/VerifyCode',
+                    data: { email: document.querySelector('input[name="Email"]').value, code: result.value },
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                text: response.message,
+                                icon: 'success',
+                                confirmButtonText: 'Tamam',
+                                width: '390px',
+                                confirmButtonColor: '#5BBB7B',
+                                customClass: {
+                                    title: 'swal-title-custom',
+                                    content: 'swal-content-custom',
+                                    confirmButton: 'swal-confirm-button-custom'
+                                }
+                            }).then(() => {
+                                window.location.href = '/User/SignIn';
+                            });
+                        } else {
+                            Swal.fire({
+                                title: 'Hata!',
+                                text: response.message,
+                                icon: 'error',
+                                confirmButtonText: 'Tamam',
+                                width: '390px',
+                                confirmButtonColor: '#5BBB7B',
+                                customClass: {
+                                    title: 'swal-title-custom',
+                                    content: 'swal-content-custom',
+                                    confirmButton: 'swal-confirm-button-custom'
+                                }
+                            }).then(() => {
+                                showVerificationModal();
+                            });
+                        }
+                    }
+                });
+            }
+            else if (result.isDismissed) {
+                resendCode();
+            }
+        });
+    }
+
+    function resendCode() {
+        $.ajax({
+            type: "POST",
+            url: '/User/ResendCode',
+            data: { email: document.querySelector('input[name="Email"]').value },
+            success: function (response) {
+                if (response.success) {
+                    Swal.fire({
+                        title: 'Başarılı!',
+                        text: 'Kod başarıyla gönderildi.',
+                        icon: 'success',
+                        confirmButtonText: 'Tamam',
+                        width: '390px',
+                        confirmButtonColor: '#4fd675',
+                        customClass: {
+                            title: 'swal-title-custom',
+                            content: 'swal-content-custom',
+                            confirmButton: 'swal-confirm-button-custom'
+                        }
+                    }).then(() => {
+                        showVerificationModal();
+                    });
+                } else {
+                    Swal.fire({
+                        title: 'Hata!',
+                        text: 'Kod gönderilemedi, lütfen tekrar deneyiniz.',
+                        icon: 'error',
+                        confirmButtonText: 'Tamam',
+                        width: '390px',
+                        confirmButtonColor: '#4fd675',
+                        customClass: {
+                            title: 'swal-title-custom',
+                            content: 'swal-content-custom',
+                            confirmButton: 'swal-confirm-button-custom'
+                        }
+                    });
+                }
+            }
+        });
+    }
+</script>

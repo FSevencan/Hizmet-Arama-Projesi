@@ -1,0 +1,363 @@
+﻿@using static Proje.Areas.Admin.Controllers.RoleController;
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		  content="">
+	<meta name="keywords"
+		  content="Proje | Admin Paneli">
+	<meta name="author" content="pixelstrap">
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+	<link rel="icon" href="/img/favicon.png" type="image/x-icon">
+	<title>Proje - AdminPaneli</title>
+
+	<!-- Google font-->
+	<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+		  rel="stylesheet">
+
+	<!-- Linear Icon css -->
+	<link rel="stylesheet" href="~/AdminHtml/assets/css/linearicon.css">
+
+	<!-- fontawesome css -->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vendors/font-awesome.css">
+
+	<!-- Themify icon css-->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vendors/themify.css">
+
+	<!-- ratio css -->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/ratio.css">
+
+	<!-- remixicon css -->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/remixicon.css">
+
+	<!-- Feather icon css-->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vendors/feather-icon.css">
+
+	<!-- Plugins css -->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vendors/scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vendors/animate.css">
+
+	<!-- Bootstrap css-->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vendors/bootstrap.css">
+
+	<!-- vector map css -->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/vector-map.css">
+
+	<!-- Slick Slider Css -->
+	<link rel="stylesheet" href="~/AdminTema/assets/css/vendors/slick.css">
+
+	<!-- App css -->
+	<link rel="stylesheet" type="text/css" href="~/AdminTema/assets/css/style.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+
+	<script src="~/AdminTema/assets/js/jquery-3.6.0.min.js"></script>
+
+	<link rel="stylesheet" href="~/css/sweetalert-admin.css" type="text/css">
+
+</head>
+
+<body>
+	<!-- tap on top start -->
+
+	<div class="page-wrapper compact-wrapper" id="pageWrapper">
+		<div class="page-header">
+			<div class="header-wrapper m-0">
+				<div class="header-logo-wrapper p-0">
+					<div class="logo-wrapper">
+					</div>
+					<div class="toggle-sidebar">
+						<i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i>
+						<a href="/Admin/Home/Index">
+							
+
+						</a>
+					</div>
+				</div>
+
+				<div class="nav-right col-6 pull-right right-header p-0">
+					<ul class="nav-menus">
+						<li>
+							<span class="header-search">
+								<i class="ri-search-line"></i>
+							</span>
+						</li>
+
+						<li class="profile-nav onhover-dropdown pe-0 me-0">
+							<div class="media profile-media">
+								<img class="user-profile rounded-circle" src="/img/pp.png">
+								<div class="user-name-hide media-body">
+									<span>@User.Identity.Name</span>
+									<p class="mb-0 font-roboto"><i class="middle ri-arrow-down-s-line"></i></p>
+								</div>
+							</div>
+							<ul class="profile-dropdown onhover-show-div">
+
+								<li>
+									<a class="dropdown-item" asp-area="Home" asp-route-returnurl="/Home/Index" asp-controller="Member" asp-action="logout"><i data-feather="log-out"></i>Çıkış yap</a>
+
+
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Page Body Start-->
+		<div class="page-body-wrapper">
+			<!-- Page Sidebar Start-->
+			<div class="sidebar-wrapper">
+				<div id="sidebarEffect"></div>
+				<div>
+					<div class="logo-wrapper logo-wrapper-center">
+						<a href="index.html" data-bs-original-title="" title="">
+							<img class="img-fluid main-logo" src="">
+							<img class="img-fluid white-logo" src="">
+						</a>
+						<div class="back-btn">
+							<i class="fa fa-angle-left"></i>
+						</div>
+						<div class="toggle-sidebar">
+							<i class="ri-apps-line status_toggle middle sidebar-toggle"></i>
+						</div>
+					</div>
+					<div class="sidebar-list" style="text-align:center;">
+						
+
+					</div>
+
+					<nav class="sidebar-main">
+						<div class="left-arrow" id="left-arrow">
+							<i data-feather="arrow-left"></i>
+						</div>
+
+
+						<div id="sidebar-menu">
+							<ul class="sidebar-links" id="simple-bar">
+								<li class="back-btn"></li>
+
+								<br />
+
+
+								<li class="sidebar-list">
+									<a class="sidebar-link sidebar-title link-nav" href="/Admin/Home/Index">
+										<i class="ri-home-line"></i>
+										<span>Gösterge Paneli</span>
+									</a>
+								</li>
+
+
+
+								<li class="sidebar-list">
+									<a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="ri-list-check-2"></i>
+										<span>Kategori</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a href="/Admin/AdminKategori/Index">Kategoriler</a>
+										</li>
+
+										<li>
+											<a href="/Admin/AdminKategori/Create">Yeni Kategori Ekle</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li class="sidebar-list">
+									<a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="ri-list-check-2"></i>
+										<span>Alt Kategoriler</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a href="/Admin/AdminAltKategori/Index">Alt Kategoriler</a>
+										</li>
+
+										<li>
+											<a href="/Admin/AdminAltKategori/Create">Yeni AltKategori Ekle</a>
+										</li>
+
+									</ul>
+								</li>
+
+								<li class="sidebar-list">
+									<a class="linear-icon-link sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="ri-chat-4-line"></i>
+										<span>İletişim & Mesaj</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a href="/Admin/Adminİletisim/Index">Mesajlar</a>
+										</li>
+									</ul>
+								</li>
+
+
+								<li class="sidebar-list">
+									<a class="sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="ri-user-6-line"></i>
+										<span>Roller</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a href="/Admin/Role/Index">Roller</a>
+										</li>
+
+
+										<li>
+											<a href="/Admin/Role/RoleCreate">Yeni Rol Ekle</a>
+										</li>
+
+									</ul>
+								</li>
+
+
+
+
+								<li class="sidebar-list">
+									<a class="sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="ri-user-3-line"></i>
+										<span>Üyeler</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a href="/Admin/Home/UserList">Üyeler</a>
+										</li>
+									</ul>
+								</li>
+
+
+
+
+								<li class="sidebar-list">
+									<a class="sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="ri-user-2-line"></i>
+										<span>Aboneler</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a href="/Admin/AdminAbone/Index">Abone Listesi</a>
+										</li>
+									</ul>
+								</li>
+
+
+
+
+
+								<li class="sidebar-list">
+									<a class="sidebar-link sidebar-title" href="javascript:void(0)">
+										<i class="fas fa-angle-double-right"></i>
+										<span>Siteye Git</span>
+									</a>
+									<ul class="sidebar-submenu">
+										<li>
+											<a asp-area="Home" asp-controller="Home" asp-action="Index" target="_blank">Siteye Git</a>
+										</li>
+
+
+									</ul>
+								</li>
+
+							</ul>
+						</div>
+
+						<div class="right-arrow" id="right-arrow">
+							<i data-feather="arrow-right"></i>
+						</div>
+					</nav>
+
+				</div>
+
+			</div>
+			<!-- Page Sidebar Ends-->
+			<!-- index body start -->
+			@RenderBody()
+		</div>
+
+	</div>
+	<!-- Container-fluid Ends-->
+	<!-- page-wrapper End-->
+	<!-- Modal Start -->
+	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+		 aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog  modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h5 class="modal-title" id="staticBackdropLabel">Logging Out</h5>
+					<p>Are you sure you want to log out?</p>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					<div class="button-box">
+						<button type="button" class="btn btn--no" data-bs-dismiss="modal">No</button>
+						<button type="button" class="btn  btn--yes btn-primary">Yes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal End -->
+	<!-- latest js -->
+	<script src="~/AdminTema/assets/js/jquery-3.6.0.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="~/AdminTema/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+	<!-- feather icon js -->
+	<script src="~/AdminTema/assets/js/icons/feather-icon/feather.min.js"></script>
+	<script src="~/AdminTema/assets/js/icons/feather-icon/feather-icon.js"></script>
+
+	<!-- scrollbar simplebar js -->
+	<script src="~/AdminTema/assets/js/scrollbar/simplebar.js"></script>
+	<script src="~/AdminTema/assets/js/scrollbar/custom.js"></script>
+
+	<!-- Sidebar jquery -->
+	<script src="~/AdminTema/assets/js/config.js"></script>
+
+	<!-- tooltip init js -->
+	<script src="~/AdminTema/assets/js/tooltip-init.js"></script>
+
+	<!-- Plugins JS -->
+	<script src="~/AdminTema/assets/js/sidebar-menu.js"></script>
+	<script src="~/AdminTema/assets/js/notify/index.js"></script>
+
+
+
+
+	<!-- slick slider js -->
+	<script src="~/AdminTema/assets/js/slick.min.js"></script>
+	<script src="~/AdminTema/assets/js/custom-slick.js"></script>
+
+	<!-- customizer js -->
+	<script src="~/AdminTema/assets/js/customizer.js"></script>
+
+	<!-- ratio js -->
+	<script src="~/AdminTema/assets/js/ratio.js"></script>
+
+	<!-- sidebar effect -->
+	<script src="~/AdminTema/assets/js/sidebareffect.js"></script>
+
+	<!-- Theme js -->
+	<script src="~/AdminTema/assets/js/script.js"></script>
+	<script src="/tinymce/tinymce.min.js"></script>
+	<script src="/tinymce/tinymcejs.js"></script>
+	<script src="/js/admin.js"></script>
+
+
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
+
